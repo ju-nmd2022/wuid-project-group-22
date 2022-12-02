@@ -128,29 +128,12 @@ h1 {
   border-radius: 200px;
   border: none;
   cursor: pointer;
-  transition-duration: 0.4s;
+
   text-decoration: none;
   overflow: hidden;
   position: relative;
 }
-.menu:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s;
-}
-.menu:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s;
-}
+
 .menu-image {
   grid-area: 1 / 1 / 2 / 2;
   width: 25px;
@@ -206,29 +189,12 @@ h3 {
   background-color: rgba(132, 157, 58, 1);
   border: none;
   cursor: pointer;
-  transition-duration: 0.4s;
+
   text-decoration: none;
   overflow: hidden;
   position: relative;
 }
-.cart:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s;
-}
-.cart:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s;
-}
+
 .menu-image {
   grid-area: 1 / 1 / 2 / 2;
   width: 25px;
@@ -250,7 +216,18 @@ h3 {
   align-self: center;
 }
 .popout-menu-container {
-  width: 70%;
-
+  width: 500px;
+  background-color: #ffffff;
   grid-area: 1 / 1 / 5 / 3;
+}
+.grey-out {
+  background-color: rgba(102, 102, 102, 0.349);
+  grid-area: 1 / 1 / 5 / 3;
+}
+.close-menu-button {
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+  margin-top: 20px;
+  margin-left: 20px;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -16,7 +16,9 @@
       <input type="text" placeholder="Search.." />
       <button class="search-button">Search</button>
 
-      <button class="menu"><img src="menu.png" class="menu-image" /></button>
+      <button class="menu">
+        <img src="menu.png" class="menu-image" />
+      </button>
 
       <img src="logo.jpg" class="logo" />
       <div class="login"><h2>Username...</h2></div>
@@ -74,7 +76,10 @@
       <div class="poupular-recipe-three-image">
         <img src="food-three.jpg" class="image" />
       </div>
-      <div class="popout-menu-container"></div>
+
+      <div class="popout-menu-container">
+        <button class="close-menu-button">Close</button>
+      </div>
     </div>
   </body>
 </html>
