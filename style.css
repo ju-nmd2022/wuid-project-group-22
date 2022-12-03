@@ -85,12 +85,7 @@ input {
 body {
   background-color: rgba(207, 211, 165, 1);
 }
-p {
-  padding: 10px;
-}
-h1 {
-  padding: 10px;
-}
+
 .image {
   border-radius: 10px 10px 0px 0px;
 
@@ -99,12 +94,15 @@ h1 {
 }
 .poupular-recipe-one {
   grid-area: 4 / 2 / 5 / 3;
+  margin: 10px;
 }
 .poupular-recipe-two {
   grid-area: 4 / 3 / 5 / 4;
+  margin: 10px;
 }
 .poupular-recipe-three {
   grid-area: 4 / 4 / 5 / 5;
+  margin: 10px;
 }
 .poupular-recipe-one-image {
   border-radius: 10px;
@@ -165,6 +163,9 @@ h1 {
   align-self: center;
   margin-right: 10px;
 }
+h1 {
+  padding: 10px;
+}
 h2 {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -179,6 +180,29 @@ h3 {
   font-style: normal;
   font-weight: normal;
   text-align: center;
+}
+h4 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: normal;
+  text-align: normal;
+  margin-top: -0px;
+}
+h5 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: bold;
+  text-align: normal;
+  margin-top: -10px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
 }
 .cart {
   justify-self: center;
@@ -222,8 +246,8 @@ h3 {
   grid-area: 1 / 1 / 6 / 3;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 100px 50px 50px 100px 100px;
-  row-gap: 5px;
+  grid-template-rows: 100px 50px 50px 20% 100px;
+  row-gap: 20px;
 }
 .gray-out {
   background-color: rgba(59, 58, 58, 0.349);
@@ -246,7 +270,7 @@ h3 {
   overflow: hidden;
   position: relative;
   color: #ffffff;
-  margin-right: 10px;
+  margin: 10px;
 }
 .cow-button {
   grid-area: 2/1/3/2;
@@ -348,4 +372,37 @@ h3 {
   grid-area: 4/ 1/5/5;
   background-color: #ffffff;
   margin-right: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+.logo-container {
+  grid-area: 1 / 1 / 2/5;
+  background-color: #ffffff;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.orange-E {
+  grid-area: 1/2/2/4;
+  width: 50px;
+  justify-self: center;
+  align-self: center;
+}
+.image-version2 {
+  width: 125px;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  margin: 10px;
+}
+.image-in-4u-box {
+  grid-area: 1/1/2/2;
+}
+.recomended-4u-textbox {
+  grid-area: 1/2/3/3;
+
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

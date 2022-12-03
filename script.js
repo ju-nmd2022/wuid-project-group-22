@@ -16,3 +16,8 @@ closeMenuButton.addEventListener("click", function (event) {
   popoutMenu.style.visibility = "hidden";
   grayOut.style.visibility = "hidden";
 });
+grayOut.addEventListener("click", function (event) {
+  menuButton.style.visibility = "visible";
+  popoutMenu.style.visibility = "hidden";
+  grayOut.style.visibility = "hidden";
+});
