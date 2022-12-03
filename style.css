@@ -1,10 +1,10 @@
 /* this is important for a grid, it holds all my cells */
 .container {
   display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  grid-template-columns: 12.5% 25% 25% 25% 12.5%;
   grid-template-rows: 100px 100px 1fr 350px;
-  grid-column-gap: 10px;
-  grid-row-gap: 30px;
+  column-gap: 10px;
+  row-gap: 30px;
 }
 
 .header-container {
@@ -107,6 +107,7 @@ h1 {
   grid-area: 4 / 4 / 5 / 5;
 }
 .poupular-recipe-one-image {
+  border-radius: 10px;
   grid-area: 3 / 2 / 4 / 3;
 }
 .poupular-recipe-two-image {
@@ -216,18 +217,135 @@ h3 {
   align-self: center;
 }
 .popout-menu-container {
-  width: 500px;
-  background-color: #ffffff;
-  grid-area: 1 / 1 / 5 / 3;
+  width: 320px;
+  background-color: rgba(207, 211, 165, 1);
+  grid-area: 1 / 1 / 6 / 3;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100px 50px 50px 100px 100px;
+  row-gap: 5px;
 }
-.grey-out {
-  background-color: rgba(102, 102, 102, 0.349);
-  grid-area: 1 / 1 / 5 / 3;
+.gray-out {
+  background-color: rgba(59, 58, 58, 0.349);
+  grid-area: 1 / 1 / 5 / 6;
 }
 .close-menu-button {
   grid-area: 1 / 1 / 2 / 2;
+  background-color: rgba(132, 157, 58, 1);
+
   justify-self: start;
   align-self: start;
-  margin-top: 20px;
-  margin-left: 20px;
+
+  height: 30px;
+  width: 50px;
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.cow-button {
+  grid-area: 2/1/3/2;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+  margin-right: 10px;
+}
+.sheep-button {
+  grid-area: 2/ 2/3/3;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+  margin-right: 10px;
+}
+.pig-button {
+  grid-area: 2/ 3/3/4;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+  margin-right: 10px;
+}
+.chicken-button {
+  grid-area: 2/ 4/3/5;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+  margin-right: 10px;
+}
+.vegan-button {
+  grid-area: 3/1/4/2;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+  margin-right: 10px;
+}
+.fish-button {
+  grid-area: 3/ 2/4/3;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+  margin-right: 10px;
+}
+.cake-button {
+  grid-area: 3/ 3/4/4;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+  margin-right: 10px;
+}
+.drink-button {
+  grid-area: 3/ 4/4/5;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+  margin-right: 10px;
+}
+.recomended-4u {
+  grid-area: 4/ 1/5/5;
+  background-color: #ffffff;
+  margin-right: 10px;
 }
