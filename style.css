@@ -1,11 +1,10 @@
 /* this is important for a grid, it holds all my cells */
 .container {
   display: grid;
-  grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+  grid-template-columns: 12% 25% 25% 25% 12%;
   grid-template-rows: 100px 100px 1fr 350px;
-  column-gap: 10px;
-  row-gap: 30px;
-  margin: -10px;
+  column-gap: 1%;
+  row-gap: 3%;
 }
 
 .header-container {
@@ -31,30 +30,29 @@ input {
 }
 .search-button {
   grid-area: 2 / 4 / 3 / 5;
-  width: 20%;
+  width: 25%;
   height: 40px;
   justify-self: end;
   align-self: center;
-  margin-right: 12%;
+  margin-right: 8%;
   background-color: rgba(132, 157, 58, 1);
   border: none;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  text-decoration: none;
+
   display: inline-block;
   font-size: 16px;
   border-radius: 20px;
   cursor: pointer;
   overflow: hidden;
   transition-duration: 0.4s;
-  position: relative;
 }
 .search-button:after {
   content: "";
   background: #f1f1f1;
   display: block;
-  position: absolute;
+
   padding-top: 300%;
   padding-left: 350%;
   margin-left: -20px !important;
@@ -124,27 +122,25 @@ body {
   justify-self: center;
   align-self: center;
   height: 50px;
-  width: 70px;
+  width: 50%;
   border-radius: 200px;
   border: none;
   cursor: pointer;
-
-  text-decoration: none;
-  overflow: hidden;
-  position: relative;
 }
 
 .menu-image {
-  grid-area: 1 / 1 / 2 / 2;
   width: 25px;
   height: 25px;
-  align-self: center;
-  justify-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 .login {
-  padding-left: 20px;
+  padding-left: 30px;
+
   text-align: left;
-  width: 180px;
+  width: 70%;
   height: 60px;
   background-color: rgba(132, 157, 58, 1);
   justify-self: end;
@@ -157,9 +153,9 @@ body {
   height: 50px;
   border-radius: 50px;
   border: solid 2px #ffffff;
+  display: block;
   grid-area: 1 / 4 / 2 / 5;
   overflow: hidden;
-  position: relative;
   justify-self: end;
   align-self: center;
   margin-right: 10px;
@@ -211,16 +207,14 @@ p {
   justify-self: center;
   align-self: center;
   height: 50px;
-  width: 70px;
+  width: 50%;
   border-radius: 200px;
   grid-area: 1 / 5 / 2 / 6;
   background-color: rgba(132, 157, 58, 1);
   border: none;
   cursor: pointer;
 
-  text-decoration: none;
   overflow: hidden;
-  position: relative;
 }
 
 .menu-image {
@@ -451,4 +445,16 @@ p {
   position: relative;
   justify-self: start;
   align-self: center;
+}
+.popout-cart-container {
+  /* background-color: rgba(207, 211, 165, 1); */
+  grid-area: 1 / 4 / 6 / 6;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 10% 5% 5% 25% 10%;
+  row-gap: 5px;
+  column-gap: 5px;
+  padding: 20px;
+  width: 400px;
+  margin-right: -10px;
 }
