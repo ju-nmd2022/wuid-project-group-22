@@ -7,28 +7,41 @@
 }
 .div1 {
   grid-area: 1 / 1 / 2 / 7;
+  background-color: blue;
 }
 .div2 {
+  background-color: aqua;
   grid-area: 2 / 2 / 3 / 3;
 }
 .div3 {
   grid-area: 2 / 3 / 3 / 4;
+  background-color: brown;
 }
 .div4 {
   grid-area: 2 / 4 / 3 / 5;
+  background-color: blueviolet;
 }
 .div5 {
   grid-area: 2 / 5 / 3 / 6;
+  background-color: chartreuse;
 }
 .div6 {
   grid-area: 3 / 2 / 4 / 3;
+  background-color: coral;
 }
 .div7 {
   grid-area: 3 / 3 / 4 / 4;
+  background-color: darkmagenta;
 }
 .div8 {
   grid-area: 3 / 4 / 4 / 5;
+  background-color: fuchsia;
 }
 .div9 {
   grid-area: 3 / 5 / 4 / 6;
+  background-color: cornflowerblue;
+}
+
+* {
+  background-color: bisque;
 }
