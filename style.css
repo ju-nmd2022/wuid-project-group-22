@@ -2,7 +2,7 @@
 .container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 100px 100px 1fr 350px;
+  grid-template-rows: 100px 100px 1fr 1fr;
   column-gap: 1%;
   row-gap: 3%;
 }
@@ -247,9 +247,9 @@ p {
   grid-template-rows: 10% 5% 5% 25% 10%;
   row-gap: 5px;
   column-gap: 5px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-top: -20px;
   width: 400px;
-  margin-left: -10px;
 }
 .gray-out {
   background-color: rgba(59, 58, 58, 0.48);
@@ -449,15 +449,13 @@ p {
   justify-self: start;
   align-self: center;
 }
+/* pop out container for the cart with its own grid*/
 .popout-cart-container {
   background-color: rgba(207, 211, 165, 1);
   grid-area: 1 / 4 / 6 / 6;
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 10% 5% 5% 25% 10%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px 200px;
   row-gap: 5px;
   column-gap: 5px;
-  padding: 20px;
-  width: 400px;
-  margin-right: -10px;
 }
