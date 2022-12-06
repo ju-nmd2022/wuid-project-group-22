@@ -1,20 +1,19 @@
 .container {
   display: grid;
-  grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
-  grid-template-rows: 100px repeat(2, 1fr);
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 100px 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 30px;
 }
 .header-container {
+  grid-area: 1 / 1 / 2 / 7;
   display: grid;
-  grid-template-columns: 12% 25% 25% 25% 12%;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
   grid-template-rows: 100px;
   column-gap: 1%;
-}
-.header-container {
   background-color: rgb(255, 255, 255);
-  grid-area: 1 / 1 / 1 / 6;
 }
+/* heder containers content */
 .menu {
   background-color: rgba(132, 157, 58, 1);
   grid-area: 1 / 1 / 2 / 2;
@@ -37,7 +36,7 @@
 .login {
   padding-left: 30px;
   text-align: left;
-  width: 70%;
+  width: 50%;
   height: 60px;
   background-color: rgba(132, 157, 58, 1);
   justify-self: end;
@@ -57,6 +56,21 @@
   align-self: center;
   margin-right: 10px;
 }
+.cart {
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50%;
+  border-radius: 200px;
+  grid-area: 1 / 5 / 2 / 6;
+  background-color: rgba(132, 157, 58, 1);
+  border: none;
+  cursor: pointer;
+
+  overflow: hidden;
+}
+
+/*End of header-container content*/
 .div1 {
   grid-area: 1 / 1 / 2 / 7;
   /* background-color: blue; */
