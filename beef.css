@@ -138,15 +138,35 @@
   padding: 10px;
   margin-bottom: 4px;
 }
+.box-1 {
+  color: #000000;
+  grid-area: 2 / 3 / 3 / 4;
+  padding: 10px;
+  margin-bottom: 4px;
+}
+.box-2 {
+  color: #000000;
+  grid-area: 2 / 5 / 3 / 6;
+  padding: 10px;
+  margin-bottom: 4px;
+}
+.box-3 {
+  color: #000000;
+  grid-area: 3 / 3 / 4 / 4;
+  padding: 10px;
+  margin-bottom: 4px;
+}
 .box-4 {
   color: #000000;
+  grid-area: 3 / 5 / 4 / 6;
+  padding: 10px;
+  margin-bottom: 4px;
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
   background-color: rgba(207, 211, 165, 1);
-  border-radius: 10px;
 }
 h1 {
   font-size: 16px;
@@ -196,5 +216,5 @@ h5 {
 .image {
   width: 440px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 10px 0px 0px 10px;
 }
