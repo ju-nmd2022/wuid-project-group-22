@@ -96,10 +96,9 @@
   grid-area: 2 / 2 / 3 / 3;
 }
 .div3 {
-  grid-area: 2 / 3 / 3 / 4;
-  background-color: rgba(132, 157, 58, 1);
+  grid-area: 2 / 2 / 3 / 4;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  color: #ffffff;
   padding: 10px;
   margin-bottom: 4px;
 }
@@ -108,10 +107,9 @@
   /* background-color: blueviolet; */
 }
 .div5 {
-  grid-area: 2 / 5 / 3 / 6;
-  background-color: rgba(132, 157, 58, 1);
+  grid-area: 2 / 4 / 3 / 6;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  color: #ffffff;
   padding: 10px;
   margin-bottom: 4px;
 }
@@ -120,10 +118,9 @@
   /* background-color: coral; */
 }
 .div7 {
-  grid-area: 3 / 3 / 4 / 4;
-  background-color: rgba(132, 157, 58, 1);
+  grid-area: 3 / 2 / 4 / 4;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  color: #ffffff;
   padding: 10px;
   margin-bottom: 4px;
 }
