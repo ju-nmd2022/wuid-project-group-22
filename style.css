@@ -316,8 +316,8 @@ input {
   padding-top: -20px;
   width: 400px;
 }
-.gray-out {
-  background-color: rgba(59, 58, 58, 0.48);
+.grey-out {
+  background-color: rgba(59, 58, 58, 0.575);
   grid-area: 1 / 1 / 5 / 6;
 }
 .close-menu-button {
