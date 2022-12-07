@@ -19,3 +19,11 @@ closeMenuButton.addEventListener("click", function (event) {
   menuButton.style.visibility = "visible";
   popoutMenu.style.visibility = "hidden";
 });
+cartButton.addEventListener("click", function (event) {
+  cartButton.style.visibility = "hidden";
+  popoutCart.style.visibility = "visible";
+});
+closeCartButton.addEventListener("click", function (event) {
+  cartButton.style.visibility = "visible";
+  popoutCart.style.visibility = "hidden";
+});
