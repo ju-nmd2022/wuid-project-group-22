@@ -7,10 +7,142 @@
   row-gap: 3%;
 }
 
+/*Background and texts*/
+body {
+  background-color: rgba(207, 211, 165, 1);
+}
+h1 {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -10px;
+  font-size: 30px;
+}
+h2 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+}
+h3 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+}
+h4 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: normal;
+  text-align: normal;
+  margin-top: -0px;
+}
+h5 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: bold;
+  text-align: normal;
+  margin-top: -10px;
+}
+h6 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(132, 157, 58, 1);
+  font-style: normal;
+  font-weight: normal;
+  text-align: normal;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+
+/* Stuff that is in the header + the header itself*/
 .header-container {
   background-color: rgb(255, 255, 255);
   grid-area: 1 / 1 / 2 / 6;
 }
+.menu {
+  background-color: rgba(132, 157, 58, 1);
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50%;
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+}
+
+.login {
+  padding-left: 30px;
+  text-align: left;
+  width: 70%;
+  height: 60px;
+  background-color: rgba(132, 157, 58, 1);
+  justify-self: end;
+  align-self: center;
+  border-radius: 10px;
+  grid-area: 1 / 4 / 2 / 5;
+}
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 2px #ffffff;
+  display: block;
+  grid-area: 1 / 4 / 2 / 5;
+  overflow: hidden;
+  justify-self: end;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.cart {
+  justify-self: center;
+  align-self: center;
+  height: 50px;
+  width: 50%;
+  border-radius: 200px;
+  grid-area: 1 / 5 / 2 / 6;
+  background-color: rgba(132, 157, 58, 1);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.menu-image {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 25px;
+  height: 25px;
+  align-self: center;
+  justify-self: center;
+}
+.cart-image {
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
+.logo {
+  /* background-color: rgb(127, 129, 255); */
+  grid-area: 1 / 3 / 2 / 4;
+  width: auto;
+  height: 100px;
+  justify-self: center;
+  align-self: center;
+}
+/*End of the header*/
+
+/*Stert of the searchbar*/
 .searchbar-container {
   border-radius: 10px;
   background-color: rgba(241, 89, 41, 1);
@@ -65,6 +197,9 @@ input {
   transition: 0s;
   overflow: hidden;
 }
+/*End of Searchbar*/
+
+/*The popular recipes with text and images*/
 .poupular-recipe-container-one {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
@@ -79,9 +214,6 @@ input {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
   grid-area: 4 / 4 / 6 / 5;
-}
-body {
-  background-color: rgba(207, 211, 165, 1);
 }
 
 .image {
@@ -119,135 +251,8 @@ body {
 
   justify-self: stretch;
 }
-.menu {
-  background-color: rgba(132, 157, 58, 1);
-  grid-area: 1 / 1 / 2 / 2;
-  justify-self: center;
-  align-self: center;
-  height: 50px;
-  width: 50%;
-  border-radius: 200px;
-  border: none;
-  cursor: pointer;
-}
-.menu-image {
-  width: 25px;
-  height: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15%;
-}
-.login {
-  padding-left: 30px;
-  text-align: left;
-  width: 70%;
-  height: 60px;
-  background-color: rgba(132, 157, 58, 1);
-  justify-self: end;
-  align-self: center;
-  border-radius: 10px;
-  grid-area: 1 / 4 / 2 / 5;
-}
-.user-image {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  border: solid 2px #ffffff;
-  display: block;
-  grid-area: 1 / 4 / 2 / 5;
-  overflow: hidden;
-  justify-self: end;
-  align-self: center;
-  margin-right: 10px;
-}
-h1 {
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: -10px;
-  font-size: 30px;
-}
-h2 {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-style: normal;
-  font-weight: normal;
-}
-h3 {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-}
-h4 {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(0, 0, 0);
-  font-style: normal;
-  font-weight: normal;
-  text-align: normal;
-  margin-top: -0px;
-}
-h5 {
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(0, 0, 0);
-  font-style: normal;
-  font-weight: bold;
-  text-align: normal;
-  margin-top: -10px;
-}
-h6 {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgba(132, 157, 58, 1);
-  font-style: normal;
-  font-weight: normal;
-  text-align: normal;
-}
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(0, 0, 0);
-  font-size: 12px;
-}
-.cart {
-  justify-self: center;
-  align-self: center;
-  height: 50px;
-  width: 50%;
-  border-radius: 200px;
-  grid-area: 1 / 5 / 2 / 6;
-  background-color: rgba(132, 157, 58, 1);
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-}
-.menu-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 25px;
-  height: 25px;
-  align-self: center;
-  justify-self: center;
-}
-.cart-image {
-  width: 25px;
-  height: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15%;
-}
-.logo {
-  /* background-color: rgb(127, 129, 255); */
-  grid-area: 1 / 3 / 2 / 4;
-  width: auto;
-  height: 100px;
-  justify-self: center;
-  align-self: center;
-}
+/*End of popular recipes*/
+
 /*Here starts the menu coding, the menu has its own grid, so it's a grid in a grid*/
 .popout-menu-container {
   background-color: rgba(207, 211, 165, 1);
@@ -389,7 +394,7 @@ p {
   justify-self: center;
   align-self: center;
 }
-/*This is the recoimended for you image changer, dont do much just says that the image should follov the div its in :D*/
+/*This is the recomended for you image changer, dont do much just says that the image should follow the div its in :D*/
 .image-version2 {
   display: block;
   margin-left: auto;
@@ -455,6 +460,9 @@ p {
   justify-self: start;
   align-self: center;
 }
+/*Pop out menu done */
+
+/*Start of the cart pop out */
 /* pop out container for the cart with its own grid*/
 .popout-cart-container {
   background-color: rgba(207, 211, 165, 1);
