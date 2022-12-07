@@ -2,7 +2,7 @@
 .container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 100px 100px 30px 1fr 1fr;
+  grid-template-rows: 100px 100px 20px 1fr 1fr;
   column-gap: 1%;
   row-gap: 3%;
 }
@@ -116,7 +116,6 @@ body {
 .popular-recipe-text {
   grid-area: 3 / 2 / 4 / 5;
   font-size: 16pt;
-  color: #ffffff;
 }
 .menu {
   background-color: rgba(132, 157, 58, 1);
@@ -200,13 +199,13 @@ h5 {
   margin-top: -10px;
 }
 h6 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(0, 0, 0);
-  font-style: normal;
-  font-weight: bold;
-  text-align: normal;
-  margin-top: -0px;
+  color: rgba(132, 157, 58, 1);
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 1%;
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
@@ -454,7 +453,7 @@ p {
 }
 /* pop out container for the cart with its own grid*/
 .popout-cart-container {
-  background-color: rgba(207, 211, 165, 1);
+  /* background-color: rgba(207, 211, 165, 1); */
   grid-area: 1 / 4 / 6 / 6;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -463,7 +462,7 @@ p {
   column-gap: 5px;
 }
 .popout-cart-logo-container {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   grid-area: 1/ 1/ 2 / 4;
   margin-left: 10px;
   border-radius: 10px;
