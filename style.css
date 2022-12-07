@@ -80,7 +80,6 @@ p {
   border: none;
   cursor: pointer;
 }
-
 .login {
   padding-left: 30px;
   text-align: left;
@@ -104,7 +103,6 @@ p {
   align-self: center;
   margin-right: 10px;
 }
-
 .cart {
   justify-self: center;
   align-self: center;
@@ -143,7 +141,7 @@ p {
 }
 /*End of the header*/
 
-/*Stert of the searchbar*/
+/*Start of the searchbar*/
 .searchbar-container {
   border-radius: 10px;
   background-color: rgba(241, 89, 41, 1);
@@ -225,7 +223,6 @@ input {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-
 .poupular-recipe-container-two {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
