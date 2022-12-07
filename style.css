@@ -2,7 +2,7 @@
 .container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 100px 100px 20px 1fr 1fr;
+  grid-template-rows: 100px 100px 70px 1fr 1fr;
   column-gap: 1%;
   row-gap: 3%;
 }
@@ -103,19 +103,21 @@ body {
 }
 .poupular-recipe-one-image {
   border-radius: 10px;
-  grid-area: 4 / 2 / 4 / 3;
+  grid-area: 4 / 2 / 5 / 3;
 }
 .poupular-recipe-two-image {
   border-radius: 10px;
-  grid-area: 4 / 3 / 4 / 4;
+  grid-area: 4 / 3 / 5 / 4;
 }
 .poupular-recipe-three-image {
   border-radius: 10px;
-  grid-area: 4 / 4 / 4 / 5;
+  grid-area: 4 / 4 / 5 / 5;
 }
 .popular-recipe-text {
   grid-area: 3 / 2 / 4 / 5;
-  font-size: 16pt;
+  border-bottom: 2px solid rgba(132, 157, 58, 1);
+
+  justify-self: stretch;
 }
 .menu {
   background-color: rgba(132, 157, 58, 1);
@@ -202,11 +204,9 @@ h6 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(132, 157, 58, 1);
-  font-style: italic;
+  font-style: normal;
   font-weight: normal;
   text-align: normal;
-  margin-top: 3%;
-  padding-left: 10px;
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
