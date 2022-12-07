@@ -252,7 +252,7 @@ p {
   grid-area: 1 / 1 / 6 / 3;
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 10% 5% 5% 25% 10%;
+  grid-template-rows: 15% 5% 5% 25% 10%;
   row-gap: 5px;
   column-gap: 5px;
   padding-right: 20px;
@@ -458,7 +458,13 @@ p {
   grid-area: 1 / 4 / 6 / 6;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-rows: 15% 200px 200px 200px;
   row-gap: 5px;
   column-gap: 5px;
+}
+.popout-cart-logo-container {
+  background-color: #ffffff;
+  grid-area: 1/ 1/ 2 / 4;
+  margin-left: 10px;
+  border-radius: 10px;
 }
