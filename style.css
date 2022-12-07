@@ -204,47 +204,93 @@ input {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
   grid-area: 4 / 2 / 6 / 3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+.poupular-recipe-one-image {
+  border-radius: 10px;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.poupular-recipe-one {
+  grid-area: 2 / 1 / 3 / 2;
+  margin: 10px;
+}
+.poupular-recipe-container-one:hover {
+  animation-name: PickMe;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 .poupular-recipe-container-two {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
   grid-area: 4 / 3 / 6 / 4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+.poupular-recipe-two {
+  grid-area: 2 / 1 / 3 / 2;
+  margin: 10px;
+}
+.poupular-recipe-two-image {
+  border-radius: 10px;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.poupular-recipe-container-two:hover {
+  animation-name: PickMe;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 .poupular-recipe-container-three {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
   grid-area: 4 / 4 / 6 / 5;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.poupular-recipe-three {
+  grid-area: 2 / 1 / 3 / 2;
+  margin: 10px;
 }
 
+.poupular-recipe-three-image {
+  border-radius: 10px;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.poupular-recipe-container-three:hover {
+  animation-name: PickMe;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes PickMe {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    color: rgb(243, 238, 167);
+    transform: translateY(-25%);
+  }
+}
 .image {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
   height: auto;
 }
-.poupular-recipe-one {
-  grid-area: 5 / 2 / 5 / 3;
-  margin: 10px;
-}
-.poupular-recipe-two {
-  grid-area: 5 / 3 / 5 / 4;
-  margin: 10px;
-}
-.poupular-recipe-three {
-  grid-area: 5 / 4 / 5 / 5;
-  margin: 10px;
-}
-.poupular-recipe-one-image {
-  border-radius: 10px;
-  grid-area: 4 / 2 / 5 / 3;
-}
-.poupular-recipe-two-image {
-  border-radius: 10px;
-  grid-area: 4 / 3 / 5 / 4;
-}
-.poupular-recipe-three-image {
-  border-radius: 10px;
-  grid-area: 4 / 4 / 5 / 5;
-}
+
 .popular-recipe-text {
   grid-area: 3 / 2 / 4 / 5;
   border-bottom: 2px solid rgba(132, 157, 58, 1);
