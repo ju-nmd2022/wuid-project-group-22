@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 100px 20px 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 44px 1fr 1fr 1fr 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
@@ -34,9 +34,9 @@
   margin-top: 10px;
 }
 .login {
-  padding-left: 30px;
+  padding-left: 10px;
   text-align: left;
-  width: 50%;
+  width: 80%;
   height: 60px;
   background-color: rgba(132, 157, 58, 1);
   justify-self: end;
@@ -54,7 +54,7 @@
   overflow: hidden;
   justify-self: end;
   align-self: center;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 .cart {
   justify-self: center;
@@ -121,7 +121,7 @@
 .div7 {
   grid-area: 3 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   padding: 10px;
   margin-bottom: 4px;
   border-top: 7px solid rgba(241, 89, 41, 1);
@@ -133,7 +133,7 @@
 .div9 {
   grid-area: 3 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   padding: 10px;
   margin-bottom: 4px;
   border-top: 7px solid rgba(241, 89, 41, 1);
@@ -142,7 +142,7 @@
 .div10 {
   grid-area: 4 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   padding: 10px;
   margin-bottom: 4px;
   border-top: 7px solid rgba(241, 89, 41, 1);
@@ -151,7 +151,7 @@
 .div11 {
   grid-area: 4 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   padding: 10px;
   margin-bottom: 4px;
   border-top: 7px solid rgba(241, 89, 41, 1);
@@ -160,7 +160,7 @@
 .div12 {
   grid-area: 5 / 2 / 5 / 4;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   padding: 10px;
   margin-bottom: 4px;
   border-top: 7px solid rgba(241, 89, 41, 1);
@@ -169,7 +169,7 @@
 .div13 {
   grid-area: 5 / 4 / 5 / 6;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   padding: 10px;
   margin-bottom: 4px;
   border-top: 7px solid rgba(241, 89, 41, 1);
@@ -236,7 +236,7 @@ h1 {
   font-style: normal;
   font-weight: normal;
   padding-top: 10px;
-  padding-left: 40px;
+  padding-left: 5px;
 }
 h2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -267,14 +267,14 @@ h2 {
   grid-area: 5 / 4 / 5 / 5;
 }
 .image {
-  width: 440px;
+  width: 330px;
   height: auto;
-  border-radius: 10px 0px 0px 10px;
-  border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  border-radius: 10px 0px 0px 0px;
+  /* border-top: 7px solid rgba(241, 89, 41, 1);
+  border-bottom: 7px solid rgba(241, 89, 41, 1); */
 }
 .popular-beef {
-  grid-area: 2 / 2 / 2 / 6;
+  grid-area: 2 / 2 / 3 / 6;
   border-bottom: 2px solid rgba(132, 157, 58, 1);
   justify-self: stretch;
   color: rgba(132, 157, 58, 1);
