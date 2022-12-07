@@ -315,7 +315,7 @@ input {
 }
 .grey-out {
   background-color: rgba(59, 58, 58, 0.575);
-  grid-area: 1 / 1 / 5 / 6;
+  grid-area: 1 / 1 / 6 / 6;
 }
 .close-menu-button {
   grid-area: 1 / 1 / 2 / 2;
@@ -530,6 +530,16 @@ input {
   grid-area: 2/ 1/ 3 / 4;
   margin-left: 10px;
   border-radius: 10px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 10px;
+}
+.item-box-for-cart {
+  grid-area: 1/1/2/2;
+  border-bottom: solid 1px #9e9e9e;
 }
 .popout-cart-to-checkout-button {
   background-color: rgba(132, 157, 58, 1);
@@ -537,6 +547,7 @@ input {
   margin-left: 10px;
   border-radius: 10px;
   padding-left: 5px;
+  border: none;
 }
 .orange-E-cart-edition {
   grid-area: 1/2/2/3;
@@ -559,4 +570,7 @@ input {
   overflow: hidden;
   position: relative;
   color: #ffffff;
+}
+.item-in-cart {
+  width: 100px;
 }
