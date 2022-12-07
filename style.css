@@ -118,19 +118,20 @@ p {
   overflow: hidden;
 }
 .menu-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 25px;
-  height: 25px;
-  align-self: center;
-  justify-self: center;
-}
-.cart-image {
-  width: 25px;
-  height: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  width: 25px;
+  height: 25px;
+  margin-top: 12px;
+}
+.cart-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24px;
+  height: 24px;
+  margin-top: 12px;
 }
 .logo {
   /* background-color: rgb(127, 129, 255); */
