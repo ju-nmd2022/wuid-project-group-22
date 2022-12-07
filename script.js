@@ -1,6 +1,12 @@
 const popoutMenu = document.querySelector(".popout-menu-container");
 const menuButton = document.querySelector(".menu");
 const closeMenuButton = document.querySelector(".close-menu-button");
+const popoutCart = document.querySelector(".popout-cart-container");
+const cartButton = document.querySelector(".cart");
+const closeCartButton = document.querySelector(".close-menu-button-cart");
+
+popoutCart.style.visibility = "hidden";
+cartButton.style.visibility = "visible";
 
 popoutMenu.style.visibility = "hidden";
 menuButton.style.visibility = "visible";

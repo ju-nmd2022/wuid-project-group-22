@@ -136,7 +136,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 15%;
 }
 .login {
   padding-left: 30px;
@@ -233,10 +233,12 @@ p {
   justify-self: center;
 }
 .cart-image {
-  grid-area: 1 / 5 / 2 / 6;
-  justify-self: center;
-  align-self: center;
-  background-color: rgba(132, 157, 58, 1);
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
 }
 .logo {
   /* background-color: rgb(127, 129, 255); */
@@ -250,6 +252,7 @@ p {
 .popout-menu-container {
   background-color: rgba(207, 211, 165, 1);
   grid-area: 1 / 1 / 6 / 3;
+  /* border-right: 2px solid rgba(132, 157, 58, 1); */
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: 15% 5% 5% 25% 10%;
@@ -454,17 +457,52 @@ p {
 }
 /* pop out container for the cart with its own grid*/
 .popout-cart-container {
-  /* background-color: rgba(207, 211, 165, 1); */
+  background-color: rgba(207, 211, 165, 1);
   grid-area: 1 / 4 / 6 / 6;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 15% 200px 200px 200px;
+  grid-template-rows: 15% 40% 40px;
   row-gap: 5px;
   column-gap: 5px;
 }
 .popout-cart-logo-container {
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   grid-area: 1/ 1/ 2 / 4;
   margin-left: 10px;
   border-radius: 10px;
+}
+.popout-cart-item-container {
+  background-color: #ffffff;
+  grid-area: 2/ 1/ 3 / 4;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.popout-cart-to-checkout-button {
+  background-color: rgba(132, 157, 58, 1);
+  grid-area: 3/ 3/ 4 / 4;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.orange-E-cart-edition {
+  grid-area: 1/2/2/3;
+  width: 50px;
+  justify-self: center;
+  align-self: center;
+}
+.close-menu-button-cart {
+  grid-area: 1 / 3/ 2 / 4;
+  background-color: rgba(132, 157, 58, 1);
+  justify-self: end;
+  align-self: start;
+  height: 30px;
+  width: 50px;
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
 }
