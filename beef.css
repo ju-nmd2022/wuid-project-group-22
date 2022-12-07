@@ -101,6 +101,7 @@
   border-radius: 10px;
   color: #ffffff;
   padding: 10px;
+  margin-bottom: 4px;
 }
 .div4 {
   grid-area: 2 / 4 / 3 / 5;
@@ -112,6 +113,7 @@
   border-radius: 10px;
   color: #ffffff;
   padding: 10px;
+  margin-bottom: 4px;
 }
 .div6 {
   grid-area: 3 / 2 / 4 / 3;
@@ -123,6 +125,7 @@
   border-radius: 10px;
   color: #ffffff;
   padding: 10px;
+  margin-bottom: 4px;
 }
 .div8 {
   grid-area: 3 / 4 / 4 / 5;
@@ -134,6 +137,7 @@
   border-radius: 10px;
   color: #ffffff;
   padding: 10px;
+  margin-bottom: 4px;
 }
 
 * {

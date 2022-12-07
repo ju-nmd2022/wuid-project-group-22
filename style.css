@@ -2,7 +2,7 @@
 .container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 100px 100px 1fr 1fr;
+  grid-template-rows: 100px 100px 30px 1fr 1fr;
   column-gap: 1%;
   row-gap: 3%;
 }
@@ -68,17 +68,17 @@ input {
 .poupular-recipe-container-one {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
-  grid-area: 3 / 2 / 5 / 3;
+  grid-area: 4 / 2 / 6 / 3;
 }
 .poupular-recipe-container-two {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
-  grid-area: 3 / 3 / 5 / 4;
+  grid-area: 4 / 3 / 6 / 4;
 }
 .poupular-recipe-container-three {
   border-radius: 10px 10px 0px 0px;
   background-color: rgb(255, 255, 255);
-  grid-area: 3 / 4 / 5 / 5;
+  grid-area: 4 / 4 / 6 / 5;
 }
 body {
   background-color: rgba(207, 211, 165, 1);
@@ -90,30 +90,34 @@ body {
   height: auto;
 }
 .poupular-recipe-one {
-  grid-area: 4 / 2 / 5 / 3;
+  grid-area: 5 / 2 / 5 / 3;
   margin: 10px;
 }
 .poupular-recipe-two {
-  grid-area: 4 / 3 / 5 / 4;
+  grid-area: 5 / 3 / 5 / 4;
   margin: 10px;
 }
 .poupular-recipe-three {
-  grid-area: 4 / 4 / 5 / 5;
+  grid-area: 5 / 4 / 5 / 5;
   margin: 10px;
 }
 .poupular-recipe-one-image {
   border-radius: 10px;
-  grid-area: 3 / 2 / 4 / 3;
+  grid-area: 4 / 2 / 4 / 3;
 }
 .poupular-recipe-two-image {
   border-radius: 10px;
-  grid-area: 3 / 3 / 4 / 4;
+  grid-area: 4 / 3 / 4 / 4;
 }
 .poupular-recipe-three-image {
   border-radius: 10px;
-  grid-area: 3 / 4 / 4 / 5;
+  grid-area: 4 / 4 / 4 / 5;
 }
-
+.popular-recipe-text {
+  grid-area: 3 / 2 / 4 / 5;
+  font-size: 16pt;
+  color: #ffffff;
+}
 .menu {
   background-color: rgba(132, 157, 58, 1);
   grid-area: 1 / 1 / 2 / 2;
@@ -160,6 +164,7 @@ h1 {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -10px;
+  font-size: 30px;
 }
 h2 {
   font-size: 16px;
@@ -194,6 +199,15 @@ h5 {
   text-align: normal;
   margin-top: -10px;
 }
+h6 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: bold;
+  text-align: normal;
+  margin-top: -0px;
+}
 p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
@@ -206,7 +220,7 @@ p {
   width: 50%;
   border-radius: 200px;
   grid-area: 1 / 5 / 2 / 6;
-  background-color: rgba(132, 157, 58, 1);
+  /* background-color: rgba(132, 157, 58, 1); */
   border: none;
   cursor: pointer;
   overflow: hidden;
@@ -222,7 +236,7 @@ p {
   grid-area: 1 / 5 / 2 / 6;
   justify-self: center;
   align-self: center;
-  background-color: rgba(132, 157, 58, 1);
+  /* background-color: rgba(132, 157, 58, 1); */
 }
 .logo {
   background-color: rgb(127, 129, 255);
