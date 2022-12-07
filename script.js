@@ -18,19 +18,23 @@ menuButton.addEventListener("click", function (event) {
   menuButton.style.visibility = "hidden";
   popoutMenu.style.visibility = "visible";
   greyOut.style.visibility = "visible";
+  cartButton.style.visibility = "hidden";
 });
 closeMenuButton.addEventListener("click", function (event) {
   menuButton.style.visibility = "visible";
   popoutMenu.style.visibility = "hidden";
   greyOut.style.visibility = "hidden";
+  cartButton.style.visibility = "visible";
 });
 cartButton.addEventListener("click", function (event) {
   cartButton.style.visibility = "hidden";
   popoutCart.style.visibility = "visible";
   greyOut.style.visibility = "visible";
+  menuButton.style.visibility = "hidden";
 });
 closeCartButton.addEventListener("click", function (event) {
   cartButton.style.visibility = "visible";
   popoutCart.style.visibility = "hidden";
   greyOut.style.visibility = "hidden";
+  menuButton.style.visibility = "visible";
 });
