@@ -88,24 +88,7 @@
   align-self: center;
 }
 /*End of header-container content*/
-.pizza-box {
-  grid-area: 6 / 2 / 6 / 4;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 4px;
-  border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
-}
-.ramen-box {
-  grid-area: 6 / 4 / 6 / 6;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 4px;
-  border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
-}
+/*All the white boxes*/
 .mushroom-box {
   grid-area: 3 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
@@ -160,18 +143,26 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.pizza {
-  color: #000000;
-  grid-area: 6 / 3 / 6 / 4;
-  padding-right: 20px;
+.pizza-box {
+  grid-area: 6 / 2 / 6 / 4;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
   margin-bottom: 4px;
+  border-top: 7px solid rgba(241, 89, 41, 1);
+  border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.ramen {
-  color: #000000;
-  grid-area: 6 / 5 / 6 / 6;
-  padding-right: 20px;
+.ramen-box {
+  grid-area: 6 / 4 / 6 / 6;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
   margin-bottom: 4px;
+  border-top: 7px solid rgba(241, 89, 41, 1);
+  border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
+/*No more white boxes*/
+/*All the content inside boxes*/
 .mushroom {
   color: #000000;
   grid-area: 3 / 3 / 4 / 4;
@@ -208,31 +199,20 @@
   padding-right: 20px;
   margin-bottom: 4px;
 }
-* {
-  font-family: Arial, Helvetica, sans-serif;
+.pizza {
+  color: #000000;
+  grid-area: 6 / 3 / 6 / 4;
+  padding-right: 20px;
+  margin-bottom: 4px;
 }
-body {
-  background-color: rgba(207, 211, 165, 1);
+.ramen {
+  color: #000000;
+  grid-area: 6 / 5 / 6 / 6;
+  padding-right: 20px;
+  margin-bottom: 4px;
 }
-h1 {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-style: normal;
-  font-weight: normal;
-  padding-top: 10px;
-  padding-left: 5px;
-}
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-}
-.pizza-image {
-  grid-area: 6 / 2 / 6 / 3;
-}
-.ramen-image {
-  grid-area: 6 / 4 / 6 / 5;
-}
+/*No more content inside boxes*/
+/*All images connected to boxes*/
 .mushroom-image {
   grid-area: 3 / 2 / 4 / 3;
 }
@@ -251,6 +231,13 @@ h2 {
 .lasagna-image {
   grid-area: 5 / 4 / 5 / 5;
 }
+.pizza-image {
+  grid-area: 6 / 2 / 6 / 3;
+}
+.ramen-image {
+  grid-area: 6 / 4 / 6 / 5;
+}
+/*No more images connected to boxes*/
 .image {
   width: 330px;
   height: auto;
@@ -264,6 +251,30 @@ h2 {
   justify-self: stretch;
   color: rgba(132, 157, 58, 1);
 }
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgba(207, 211, 165, 1);
+}
+
+h1 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
 h3 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
