@@ -219,11 +219,11 @@
 .pakchoi-image {
   grid-area: 3 / 4 / 4 / 5;
 }
-.cod-image {
-  grid-area: 4 / 4 / 4 / 5;
-}
 .tuna-image {
   grid-area: 4 / 2 / 4 / 5;
+}
+.cod-image {
+  grid-area: 4 / 4 / 4 / 5;
 }
 .bulgur-image {
   grid-area: 5 / 2 / 5 / 3;
