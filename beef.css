@@ -164,49 +164,49 @@
 /*No more white boxes*/
 /*All the content inside boxes*/
 .meatballs {
-  color: #000000;
+  color: #625248;
   grid-area: 3 / 3 / 4 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .goulash {
-  color: #000000;
+  color: #625248;
   grid-area: 3 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .wellington {
-  color: #000000;
+  color: #625248;
   grid-area: 4 / 3 / 4 / 4;
   margin-bottom: 4px;
   padding-right: 20px;
 }
 .stroganoff {
-  color: #000000;
+  color: #625248;
   grid-area: 4 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .teriyaki {
-  color: #000000;
+  color: #625248;
   grid-area: 5 / 3 / 5 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .stew {
-  color: #000000;
+  color: #625248;
   grid-area: 5 / 5 / 5 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .tacos {
-  color: #000000;
+  color: #625248;
   grid-area: 6 / 3 / 6 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .steak {
-  color: #000000;
+  color: #625248;
   grid-area: 6 / 5 / 6 / 6;
   padding-right: 20px;
   margin-bottom: 4px;

@@ -164,49 +164,49 @@
 /*No more white boxes*/
 /*All the content inside boxes*/
 .strawberry {
-  color: #000000;
+  color: #625248;
   grid-area: 3 / 3 / 4 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .apple {
-  color: #000000;
+  color: #625248;
   grid-area: 3 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .raspberry {
-  color: #000000;
+  color: #625248;
   grid-area: 4 / 3 / 4 / 4;
   margin-bottom: 4px;
   padding-right: 20px;
 }
 .choco {
-  color: #000000;
+  color: #625248;
   grid-area: 4 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .cookies {
-  color: #000000;
+  color: #625248;
   grid-area: 5 / 3 / 5 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .blueberry {
-  color: #000000;
+  color: #625248;
   grid-area: 5 / 5 / 5 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .blackberry {
-  color: #000000;
+  color: #625248;
   grid-area: 6 / 3 / 6 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
 .kladdkaka {
-  color: #000000;
+  color: #625248;
   grid-area: 6 / 5 / 6 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
@@ -245,7 +245,7 @@
   /* border-top: 7px solid rgba(241, 89, 41, 1);
           border-bottom: 7px solid rgba(241, 89, 41, 1); */
 }
-.popular-seafood {
+.popular-dessert {
   grid-area: 2 / 2 / 3 / 6;
   border-bottom: 2px solid rgba(132, 157, 58, 1);
   justify-self: stretch;
