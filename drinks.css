@@ -89,7 +89,7 @@
 }
 /*End of header-container content*/
 /*All the white boxes*/
-.strawberry-box {
+.lemonade-box {
   grid-area: 3 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -98,7 +98,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.apple-box {
+.berry-box {
   grid-area: 3 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -107,7 +107,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.raspberry-box {
+.oreo-box {
   grid-area: 4 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -116,7 +116,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.choco-box {
+.mango-box {
   grid-area: 4 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -125,7 +125,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.cookies-box {
+.mojito-box {
   grid-area: 5 / 2 / 5 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -134,7 +134,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.blueberry-box {
+.pomegranate-box {
   grid-area: 5 / 4 / 5 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -143,7 +143,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.blackberry-box {
+.icetea-box {
   grid-area: 6 / 2 / 6 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -152,7 +152,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.kladdkaka-box {
+.smoothie-box {
   grid-area: 6 / 4 / 6 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -163,49 +163,49 @@
 }
 /*No more white boxes*/
 /*All the content inside boxes*/
-.strawberry {
+.lemonade {
   color: #625248;
   grid-area: 3 / 3 / 4 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.apple {
+.berry {
   color: #625248;
   grid-area: 3 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.raspberry {
+.oreo {
   color: #625248;
   grid-area: 4 / 3 / 4 / 4;
   margin-bottom: 4px;
   padding-right: 20px;
 }
-.choco {
+.mango {
   color: #625248;
   grid-area: 4 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.cookies {
+.mojito {
   color: #625248;
   grid-area: 5 / 3 / 5 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.blueberry {
+.pomegranate {
   color: #625248;
   grid-area: 5 / 5 / 5 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.blackberry {
+.icetea {
   color: #625248;
   grid-area: 6 / 3 / 6 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.kladdkaka {
+.smoothie {
   color: #625248;
   grid-area: 6 / 5 / 6 / 6;
   padding-right: 20px;
@@ -213,28 +213,28 @@
 }
 /*No more content inside boxes*/
 /*All images connected to boxes*/
-.strawberry-image {
+.lemonade-image {
   grid-area: 3 / 2 / 4 / 3;
 }
-.apple-image {
+.berry-image {
   grid-area: 3 / 4 / 4 / 5;
 }
-.raspberry-image {
+.oreo-image {
   grid-area: 4 / 2 / 4 / 5;
 }
-.choco-image {
+.mango-image {
   grid-area: 4 / 4 / 4 / 5;
 }
-.cookies-image {
+.mojito-image {
   grid-area: 5 / 2 / 5 / 3;
 }
-.blueberry-image {
+.pomegranate-image {
   grid-area: 5 / 4 / 5 / 5;
 }
-.blackberry-image {
+.icetea-image {
   grid-area: 6 / 2 / 6 / 3;
 }
-.kladdkaka-image {
+.smoothie-image {
   grid-area: 6 / 4 / 6 / 5;
 }
 /*No more images connected to boxes*/
