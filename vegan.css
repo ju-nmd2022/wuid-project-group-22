@@ -88,7 +88,7 @@
   align-self: center;
 }
 /*End of header-container content*/
-.tacos-box {
+.pizza-box {
   grid-area: 6 / 2 / 6 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -97,7 +97,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.steak-box {
+.ramen-box {
   grid-area: 6 / 4 / 6 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -106,7 +106,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.meatballs-box {
+.mushroom-box {
   grid-area: 3 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -115,7 +115,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.goulash-box {
+.chili-box {
   grid-area: 3 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -124,7 +124,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.wellington-box {
+.burger-box {
   grid-area: 4 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -133,7 +133,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.stroganoff-box {
+.zucchini-box {
   grid-area: 4 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -142,7 +142,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.teriyaki-box {
+.broccoli-box {
   grid-area: 5 / 2 / 5 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -151,7 +151,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.stew-box {
+.lasagna-box {
   grid-area: 5 / 4 / 5 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -160,49 +160,49 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.tacos {
+.pizza {
   color: #000000;
   grid-area: 6 / 3 / 6 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.steak {
+.ramen {
   color: #000000;
   grid-area: 6 / 5 / 6 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.meatballs {
+.mushroom {
   color: #000000;
   grid-area: 3 / 3 / 4 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.goulash {
+.chili {
   color: #000000;
   grid-area: 3 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.wellington {
+.burger {
   color: #000000;
   grid-area: 4 / 3 / 4 / 4;
   margin-bottom: 4px;
   padding-right: 20px;
 }
-.stroganoff {
+.zucchini {
   color: #000000;
   grid-area: 4 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.teriyaki {
+.broccoli {
   color: #000000;
   grid-area: 5 / 3 / 5 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.stew {
+.lasagna {
   color: #000000;
   grid-area: 5 / 5 / 5 / 6;
   padding-right: 20px;
@@ -227,28 +227,28 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 }
-.tacos-image {
+.pizza-image {
   grid-area: 6 / 2 / 6 / 3;
 }
-.steak-image {
+.ramen-image {
   grid-area: 6 / 4 / 6 / 5;
 }
-.meatballs-image {
+.mushroom-image {
   grid-area: 3 / 2 / 4 / 3;
 }
-.goulash-image {
+.chili-image {
   grid-area: 3 / 4 / 4 / 5;
 }
-.stroganoff-image {
+.zucchini-image {
   grid-area: 4 / 4 / 4 / 5;
 }
-.wellington-image {
+.burger-image {
   grid-area: 4 / 2 / 4 / 5;
 }
-.teriyaki-image {
+.broccoli-image {
   grid-area: 5 / 2 / 5 / 3;
 }
-.stew-image {
+.lasagna-image {
   grid-area: 5 / 4 / 5 / 5;
 }
 .image {
@@ -258,7 +258,7 @@ h2 {
   /* border-top: 7px solid rgba(241, 89, 41, 1);
     border-bottom: 7px solid rgba(241, 89, 41, 1); */
 }
-.popular-beef {
+.popular-veg {
   grid-area: 2 / 2 / 3 / 6;
   border-bottom: 2px solid rgba(132, 157, 58, 1);
   justify-self: stretch;
