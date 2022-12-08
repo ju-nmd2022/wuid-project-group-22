@@ -361,7 +361,7 @@ input {
   cursor: pointer;
   background-color: rgba(241, 89, 41, 1);
 }
-.sheep-button {
+.pasta-button {
   grid-area: 2/ 2/3/3;
   justify-self: center;
   align-self: center;
