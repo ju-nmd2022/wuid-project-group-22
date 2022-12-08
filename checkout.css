@@ -15,14 +15,17 @@ h3 {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  margin: 0px;
+  padding: 0px;
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 0.6fr;
-  grid-template-rows: 100px 1fr;
-  column-gap: 30px;
-  row-gap: 15px;
+  grid-template-columns: 56% 38%;
+  grid-template-rows: 25% 70%;
+  column-gap: 3%;
+  row-gap: 1.5%;
   margin: 3%;
+  width: 99%;
 }
 .header {
   grid-area: 1/1/2/2;
@@ -61,15 +64,16 @@ h3 {
   grid-area: 2/1/3/2;
   display: grid;
   grid-template-columns: 25% 60% 10% 5%;
-  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-rows: 25% 25% 25% 25%;
   border-radius: 10px;
-  padding: 15px;
+  padding: 2%;
 }
 .item-image-in-checkout {
   grid-area: 1/1/2/2;
-  width: 80px;
+  width: auto;
+  height: 20%;
   justify-self: center;
-  align-self: center;
+  align-self: start;
 }
 .item-name {
   grid-area: 1/2/2/3;
@@ -82,14 +86,17 @@ h3 {
 }
 .item-trashcan {
   grid-area: 1/4/2/5;
-
-  width: 30px;
+  height: auto;
+  width: 100%;
   justify-self: end;
   align-self: center;
 }
 .empty-cell-one {
   grid-area: 1/1/2/5;
   border-bottom: solid 1px #9e9e9e;
+  justify-self: stretch;
+  align-self: stretch;
+  height: 100%;
 }
 .empty-cell-two {
   grid-area: 2/1/3/5;
@@ -106,8 +113,10 @@ h3 {
   background-color: #ffffff;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 200px 100px 100px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 30% 20% 20%;
+  height: 99%;
+  width: auto;
 }
 
 .logo-in-a-box {
@@ -135,6 +144,7 @@ h3 {
 input {
   border: #9e9e9e solid 1px;
   width: 85%;
+  height: auto;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -142,6 +152,7 @@ input {
 .payment {
   grid-area: 3/1/4/3;
   margin: 10%;
+  padding: 4%;
 }
 select {
   width: 50%;
@@ -152,13 +163,69 @@ select {
   border: none;
   background-color: rgba(132, 157, 58, 1);
   color: #ffffff;
-  font-size: 12px;
+
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
-  width: 100px;
-  height: 30px;
-  border-radius: 200px;
-  align-self: center;
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  align-self: start;
   justify-self: center;
   cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+  h3 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 35% 50%;
+    row-gap: 5%;
+    column-gap: 1%;
+    width: auto;
+    height: 100%;
+  }
+  .header {
+    grid-area: 1/1/2/2;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .cart-container {
+    background-color: #ffffff;
+    grid-area: 2/1/3/2;
+    display: grid;
+    grid-template-columns: 25% 59% 10% 5%;
+    grid-template-rows: 26% 25% 25% 20%;
+    border-radius: 10px;
+    padding: 4%;
+    height: 99%;
+  }
+  .item-image-in-checkout {
+    grid-area: 1/1/2/2;
+    width: auto;
+    height: 80%;
+    justify-self: center;
+    align-self: start;
+  }
+  .logo-checkout-details {
+    grid-area: 3/1/4/2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 29% 29% 19% 19%;
+    row-gap: 4%;
+    height: auto;
+    width: 100%;
+  }
 }
