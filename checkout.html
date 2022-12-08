@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="checkout.css" />
-    <title>Document</title>
+    <title>Checkout</title>
   </head>
   <body>
     <div class="container">
@@ -20,12 +20,40 @@
         <div class="empty-cell-two"></div>
         <div class="empty-cell-three"></div>
         <div class="empty-cell-four"></div>
-        <img src="pot.jpg" class="item-image-in-checkout" />
+        <img src="images/pot.jpg" class="item-image-in-checkout" />
         <div class="item-name"><h2>Red Cooking Pot</h2></div>
         <div class="item-amount"><p>x1</p></div>
         <img src="trash.png" class="item-trashcan" />
       </div>
-      <div class="logo-checkout-details"></div>
+      <div class="logo-checkout-details">
+        <div class="logo-in-a-box"></div>
+        <img src="Orange e.png" class="logo-image-resizing" />
+        <ul class="your-info">
+          <h3>Your Information</h3>
+          <li>Name</li>
+          <li><input type="text" placeholder="Jane Doe" /></li>
+          <li>Address</li>
+          <li><input type="text" placeholder="GateStreet 123 " /></li>
+          <li>Email</li>
+          <li><input type="text" placeholder="JaneDoe1990@mail.com" /></li>
+        </ul>
+        <div class="payment">
+          <h3>Your payment method</h3>
+          <select>
+            <option value="visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Paypal">Paypal</option>
+            <option value="Apple Pay">ApplePay</option>
+            <option value="Debit">Debit</option>
+          </select>
+        </div>
+        <button
+          class="checkout-now"
+          onclick="window.location.href='thanks.html';"
+        >
+          Checkout
+        </button>
+      </div>
     </div>
   </body>
 </html>
