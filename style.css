@@ -219,6 +219,7 @@ input {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+  width: 100%;
 }
 .poupular-recipe-one-image {
   border-radius: 10px;
@@ -230,7 +231,7 @@ input {
 }
 .poupular-recipe-container-one:hover {
   animation-name: PickMe;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
@@ -243,6 +244,7 @@ input {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+  width: 100%;
 }
 .poupular-recipe-two {
   grid-area: 2 / 1 / 3 / 2;
@@ -254,7 +256,7 @@ input {
 }
 .poupular-recipe-container-two:hover {
   animation-name: PickMe;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
@@ -268,6 +270,7 @@ input {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+  width: 100%;
 }
 .poupular-recipe-three {
   grid-area: 2 / 1 / 3 / 2;
@@ -280,7 +283,7 @@ input {
 }
 .poupular-recipe-container-three:hover {
   animation-name: PickMe;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
@@ -292,10 +295,10 @@ input {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-5%);
+    transform: translateY(-40px);
   }
   100% {
-    transform: translateY(-5%);
+    transform: translateY(0);
   }
 }
 .image {
