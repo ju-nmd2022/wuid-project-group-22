@@ -634,9 +634,11 @@ input {
   .container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 4% 2% 2% 23% 23% 23%;
+    grid-template-rows: 4% 2% 2% 26% 26% 26%;
     row-gap: 0.2%;
     column-gap: 0%;
+    height: auto;
+    width: 99%;
   }
 
   .header-container {
