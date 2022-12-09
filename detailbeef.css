@@ -196,10 +196,16 @@ p {
   color: #625248;
   border-radius: 10px 10px 0px 0px;
 }
+.stars {
+  grid-area: 1 / 2 / 1 / 2;
+  height: 50px;
+  width: auto;
+  padding-top: 10;
+}
 .directions {
   grid-area: 3 / 2 / 7 / 3;
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr;
   color: #625248;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -209,7 +215,7 @@ p {
   justify-self: end;
 }
 .directions-text {
-  grid-area: 2/1/2/1;
+  grid-area: 2 / 1 / 2 / 1;
   color: #625248;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
