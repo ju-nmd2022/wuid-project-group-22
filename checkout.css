@@ -10,6 +10,7 @@ h2 {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
+  color: #625248;
 }
 h3 {
   font-size: 18px;
@@ -17,6 +18,7 @@ h3 {
   font-weight: bold;
   margin: 0px;
   padding: 0px;
+  color: #625248;
 }
 .container {
   display: grid;
@@ -39,6 +41,7 @@ h3 {
   grid-area: 1/1/2/2;
   align-self: center;
   justify-self: center;
+  color: #625248;
 }
 .close-button {
   grid-area: 1/1/2/2;
@@ -142,7 +145,7 @@ h3 {
   font-weight: normal;
 }
 input {
-  border: #9e9e9e solid 1px;
+  border: #625248 solid 1px;
   width: 85%;
   height: auto;
   font-size: 12px;
@@ -163,7 +166,7 @@ select {
   border: none;
   background-color: rgba(132, 157, 58, 1);
   color: #ffffff;
-
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   width: 50%;
