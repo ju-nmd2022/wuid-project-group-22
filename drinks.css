@@ -360,7 +360,7 @@ h3 {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .popular-chick {
+  .popular-drinks {
     grid-area: 2 / 1 / 3 / 4;
     border-bottom: 2px solid rgba(132, 157, 58, 1);
     font-size: 20px;
@@ -370,7 +370,7 @@ h3 {
     color: rgba(132, 157, 58, 1);
     align-self: end;
   }
-  .sesame-box {
+  .lemonade-box {
     grid-area: 3 / 1 / 4 / 4;
     background-color: rgb(255, 255, 255);
     border-radius: 10px 10px 0px 0px;
@@ -383,7 +383,7 @@ h3 {
     grid-template-rows: 99%;
     grid-template-columns: 40% 40%;
   }
-  .pesto-box {
+  .berry-box {
     grid-area: 4 / 1 / 5 / 4;
     background-color: rgb(255, 255, 255);
     border-radius: 10px 10px 0px 0px;
@@ -396,7 +396,7 @@ h3 {
     grid-template-rows: 99%;
     grid-template-columns: 40% 40%;
   }
-  .wrap-box {
+  .oreo-box {
     grid-area: 5 / 1 / 6 / 4;
     background-color: rgb(255, 255, 255);
     border-radius: 10px 10px 0px 0px;
@@ -408,7 +408,7 @@ h3 {
     grid-template-rows: 99%;
     grid-template-columns: 40% 40%;
   }
-  .wok-box {
+  .mango-box {
     grid-area: 6 / 1 / 7 / 4;
     background-color: rgb(255, 255, 255);
     border-radius: 10px 10px 0px 0px;
@@ -420,7 +420,7 @@ h3 {
     grid-template-rows: 99%;
     grid-template-columns: 40% 40%;
   }
-  .pumpkin-box {
+  .mojito-box {
     grid-area: 7 / 1 / 8 / 4;
     background-color: rgb(255, 255, 255);
     border-radius: 10px 10px 0px 0px;
@@ -432,7 +432,7 @@ h3 {
     grid-template-rows: 99%;
     grid-template-columns: 40% 40%;
   }
-  .fried-box {
+  .pomegranate-box {
     grid-area: 8 / 1 / 9 / 4;
     background-color: rgb(255, 255, 255);
     border-radius: 10px 10px 0px 0px;
@@ -444,7 +444,7 @@ h3 {
     grid-template-rows: 99%;
     grid-template-columns: 40% 40%;
   }
-  .bbq-box {
+  .icetea-box {
     grid-area: 9/ 1 / 10 / 4;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -456,7 +456,7 @@ h3 {
     grid-template-rows: 99%;
     grid-template-columns: 40% 40%;
   }
-  .curry-box {
+  .smoothie-box {
     grid-area: 10 / 1 / 11 / 4;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;

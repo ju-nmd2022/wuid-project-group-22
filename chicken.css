@@ -312,8 +312,12 @@
 .popular-chick {
   grid-area: 2 / 2 / 3 / 6;
   border-bottom: 2px solid rgba(132, 157, 58, 1);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   justify-self: stretch;
+  width: 100%;
   color: rgba(132, 157, 58, 1);
+  align-self: end;
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
