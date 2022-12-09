@@ -2,11 +2,7 @@
 .container {
   display: grid;
   grid-template-columns: 11% 25% 25% 25% 11%;
-<<<<<<< HEAD
-  grid-template-rows: 10% 25% 25% 25% 5%;
-=======
   grid-template-rows: 11% 25% 25% 25% 11%;
->>>>>>> 54f9d1dc75312ef857b02f0e88bf52586b95b33c
   column-gap: 1%;
   row-gap: 3%;
   width: 99%;
