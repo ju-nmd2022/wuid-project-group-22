@@ -26,25 +26,18 @@ menuButton.addEventListener("click", function (event) {
   popoutMenu.style.visibility = "visible";
   greyOut.style.visibility = "visible";
   cartButton.style.visibility = "hidden";
-  firstPop.style.visibility = "hidden";
-  thirdPop.style.webkitAnimationPlayState = "paused";
-  secondPop.style.webkitAnimationPlayState = "paused";
 });
 closeMenuButton.addEventListener("click", function (event) {
   menuButton.style.visibility = "visible";
   popoutMenu.style.visibility = "hidden";
   greyOut.style.visibility = "hidden";
   cartButton.style.visibility = "visible";
-  firstPop.style.visibility = "visible";
-  secondPop.style.webkitAnimationPlayState = "running";
-  thirdPop.style.webkitAnimationPlayState = "running";
 });
 cartButton.addEventListener("click", function (event) {
   cartButton.style.visibility = "hidden";
   popoutCart.style.visibility = "visible";
   greyOut.style.visibility = "visible";
   menuButton.style.visibility = "hidden";
-  thirdPop.style.visibility = "hidden";
   itemBox.style.visibility = "visible";
 });
 closeCartButton.addEventListener("click", function (event) {
@@ -52,6 +45,5 @@ closeCartButton.addEventListener("click", function (event) {
   popoutCart.style.visibility = "hidden";
   greyOut.style.visibility = "hidden";
   menuButton.style.visibility = "visible";
-  thirdPop.style.visibility = "visible";
   itemBox.style.visibility = "hidden";
 });
