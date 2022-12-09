@@ -277,6 +277,303 @@ h3 {
   font-weight: normal;
   text-align: normal;
 }
+
+/*Here starts the menu coding, the menu has its own grid, so it's a grid in a grid*/
+.popout-menu-container {
+  background-color: rgba(207, 211, 165, 1);
+  grid-area: 1 / 1 / 7 / 3;
+  /* border-right: 2px solid rgba(132, 157, 58, 1); */
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 15% 5% 5% 25% 10%;
+  row-gap: 5px;
+  column-gap: 5px;
+  padding-right: 20px;
+  padding-top: -20px;
+  width: 400px;
+}
+.grey-out {
+  background-color: rgba(59, 58, 58, 0.575);
+  grid-area: 1 / 1 / 7 / 7;
+}
+.close-menu-button {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgba(132, 157, 58, 1);
+  justify-self: start;
+  align-self: start;
+  height: 30px;
+  width: 50px;
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+}
+/*Here starts the app icons buttons, its a lot of buttons but says basicly the same thing ( only change is image and placement) */
+.cow-button {
+  grid-area: 2/1/3/2;
+  justify-self: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+}
+.pasta-button {
+  grid-area: 2/ 2/3/3;
+  justify-self: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+}
+.pig-button {
+  grid-area: 2/ 3/3/4;
+  justify-self: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+}
+.chicken-button {
+  grid-area: 2/ 4/3/5;
+  justify-self: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+}
+.vegan-button {
+  grid-area: 3/1/4/2;
+  justify-self: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+}
+.fish-button {
+  grid-area: 3/ 2/4/3;
+  justify-self: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+}
+.cake-button {
+  grid-area: 3/ 3/4/4;
+  justify-self: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+}
+.drink-button {
+  grid-area: 3/ 4/4/5;
+  justify-self: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(241, 89, 41, 1);
+}
+/*End of the endless buttons for the categories!! */
+.recomended-4u {
+  grid-area: 4/ 1/5/5;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.logo-container {
+  grid-area: 1 / 1 / 2/5;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.orange-E {
+  grid-area: 1/2/2/4;
+  width: 50px;
+  justify-self: center;
+  align-self: center;
+}
+/*This is the recomended for you image changer, dont do much just says that the image should follow the div its in :D*/
+.image-version2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+.image-in-4u-box {
+  grid-area: 4/1/5/3;
+  width: 150px;
+  height: 225px;
+  overflow: hidden;
+  margin: 20px;
+}
+.recomended-4u-textbox {
+  grid-area: 4/3/5/5;
+  align-self: right;
+  justify-self: center;
+  padding: 20px;
+}
+.icon-image {
+  width: auto;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-menu-container {
+  grid-area: 5/1/6/5;
+  background-color: rgba(132, 157, 58, 1);
+  border-radius: 10px;
+}
+.login-menu {
+  padding-left: 20px;
+  text-align: left;
+  width: 180px;
+  height: 60px;
+  background-color: rgba(132, 157, 58, 1);
+  justify-self: end;
+  align-self: center;
+  border-radius: 10px;
+  grid-area: 5/1/5/5;
+  margin: 10px;
+}
+.user-image-menu {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 2px #ffffff;
+  grid-area: 5/1/5/5;
+  overflow: hidden;
+  position: relative;
+  justify-self: end;
+  align-self: center;
+  margin: 10px;
+}
+.settings {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 10px;
+  grid-area: 5/1/5/5;
+  position: relative;
+  justify-self: start;
+  align-self: center;
+}
+/*Pop out menu done */
+/*Start of the cart pop out */
+/* pop out container for the cart with its own grid*/
+.popout-cart-container {
+  background-color: rgba(207, 211, 165, 1);
+  grid-area: 1 / 5 / 7 / 7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 15% 40% 40px;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+.popout-cart-logo-container {
+  background-color: #ffffff;
+  grid-area: 1/ 1/ 2 / 4;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.popout-cart-item-container {
+  background-color: #ffffff;
+  grid-area: 2/ 1/ 3 / 4;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 10px;
+}
+.empty-cart-text {
+  grid-area: 1/1/3/2;
+  align-self: start;
+  justify-self: center;
+}
+.item-box-for-cart {
+  grid-area: 1/1/2/2;
+  background-color: #ffffff;
+  border-bottom: solid 1px #9e9e9e;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+}
+.item-in-cart {
+  width: 100px;
+  grid-area: 1/1/2/2;
+  align-self: center;
+  justify-self: center;
+}
+.item-text-in-cart {
+  grid-area: 1/2/2/3;
+}
+.item-price-in-car {
+  grid-area: 1/3/2/4;
+  align-self: center;
+}
+.popout-cart-to-checkout-button {
+  background-color: rgba(132, 157, 58, 1);
+  grid-area: 3/ 3/ 4 / 4;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding-left: 5px;
+  border: none;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.orange-E-cart-edition {
+  grid-area: 1/2/2/3;
+  width: 50px;
+  justify-self: center;
+  align-self: center;
+}
+.close-menu-button-cart {
+  grid-area: 1 / 3/ 2 / 4;
+  background-color: rgba(132, 157, 58, 1);
+  justify-self: end;
+  align-self: start;
+  height: 30px;
+  width: 50px;
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+}
+
 @media screen and (min-width: 600px) {
   .logo-two {
     display: none;
