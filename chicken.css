@@ -1,17 +1,19 @@
 .container {
   display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 100px 44px 1fr 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-template-columns: 10% 19% 19% 19% 19% 10%;
+  grid-template-rows: 12% 2% 21% 21% 21% 21%;
+  grid-column-gap: 1%;
+  grid-row-gap: 3%;
+  height: auto;
+  width: 99%;
 }
 .header-container {
   grid-area: 1 / 1 / 2 / 7;
   display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 100px;
-  column-gap: 1%;
+  grid-template-columns: 11% 25% 25% 25% 11%;
+  grid-template-rows: 100%;
   background-color: rgb(255, 255, 255);
+  height: 100%;
 }
 /* header containers content */
 .menu {
@@ -26,12 +28,12 @@
   cursor: pointer;
 }
 .menu-image {
-  width: 25px;
-  height: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+  margin-top: 12px;
 }
 .login {
   padding-left: 10px;
@@ -69,9 +71,12 @@
   overflow: hidden;
 }
 .cart-image {
-  grid-area: 1 / 5 / 2 / 6;
-  justify-self: center;
-  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24px;
+  height: 24px;
+  margin-top: 12px;
 }
 .logo {
   grid-area: 1 / 3 / 2 / 4;
@@ -80,6 +85,7 @@
   justify-self: center;
   align-self: center;
 }
+
 .click-logo {
   grid-area: 1 / 3 / 2 / 4;
   width: auto;
@@ -93,153 +99,211 @@
   grid-area: 3 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
-  padding: 10px;
-  margin-bottom: 4px;
+  padding: 1%;
+
   border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 99%;
+  grid-template-columns: 40% 40%;
 }
 .pesto-box {
   grid-area: 3 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
-  padding: 10px;
-  margin-bottom: 4px;
+  padding: 1%;
+
   border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 99%;
+  grid-template-columns: 40% 40%;
 }
 .wrap-box {
   grid-area: 4 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
-  padding: 10px;
-  margin-bottom: 4px;
+  padding: 1%;
   border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 99%;
+  grid-template-columns: 40% 40%;
 }
 .wok-box {
   grid-area: 4 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
-  padding: 10px;
-  margin-bottom: 4px;
+  padding: 1%;
   border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 99%;
+  grid-template-columns: 40% 40%;
 }
 .pumpkin-box {
   grid-area: 5 / 2 / 5 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
-  padding: 10px;
-  margin-bottom: 4px;
+  padding: 1%;
   border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 99%;
+  grid-template-columns: 40% 40%;
 }
 .fried-box {
   grid-area: 5 / 4 / 5 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
-  padding: 10px;
-  margin-bottom: 4px;
+  padding: 1%;
   border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 99%;
+  grid-template-columns: 40% 40%;
 }
 .bbq-box {
   grid-area: 6 / 2 / 6 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 4px;
+  padding: 1%;
   border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 99%;
+  grid-template-columns: 40% 40%;
 }
 .curry-box {
   grid-area: 6 / 4 / 6 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 4px;
+  padding: 1%;
   border-top: 7px solid rgba(241, 89, 41, 1);
-  border-bottom: 7px solid rgba(241, 89, 41, 1);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 99%;
+  grid-template-columns: 40% 40%;
 }
 /*No more white boxes*/
 /*All the content inside boxes*/
 .sesame {
   color: #625248;
-  grid-area: 3 / 3 / 4 / 4;
-  padding-right: 20px;
-  margin-bottom: 4px;
+  grid-area: 1 / 2 /2 / 3;
+  margin: 3%;
 }
 .pesto {
   color: #625248;
-  grid-area: 3 / 5 / 4 / 6;
-  padding-right: 20px;
-  margin-bottom: 4px;
+  grid-area: 1 / 2 /2 / 3;
+  margin: 3%;
 }
 .wrap {
   color: #625248;
-  grid-area: 4 / 3 / 4 / 4;
-  margin-bottom: 4px;
-  padding-right: 20px;
+  grid-area: 1 / 2 /2 / 3;
+  margin: 3%;
 }
 .wok {
   color: #625248;
-  grid-area: 4 / 5 / 4 / 6;
-  padding-right: 20px;
-  margin-bottom: 4px;
+  grid-area: 1 / 2 /2 / 3;
+  margin: 3%;
 }
 .pumpkin {
   color: #625248;
-  grid-area: 5 / 3 / 5 / 4;
-  padding-right: 20px;
-  margin-bottom: 4px;
+  grid-area: 1 / 2 /2 / 3;
+  margin: 3%;
 }
 .fried {
   color: #625248;
-  grid-area: 5 / 5 / 5 / 6;
-  padding-right: 20px;
-  margin-bottom: 4px;
+  grid-area: 1 / 2 /2 / 3;
+  margin: 3%;
 }
 .bbq {
   color: #625248;
-  grid-area: 6 / 3 / 6 / 4;
-  padding-right: 20px;
-  margin-bottom: 4px;
+  grid-area: 1 / 2 /2 / 3;
+  margin: 3%;
 }
 .curry {
   color: #625248;
-  grid-area: 6 / 5 / 6 / 6;
-  padding-right: 20px;
-  margin-bottom: 4px;
+  grid-area: 1 / 2 /2 / 3;
+  margin: 3%;
 }
 /*No more content inside boxes*/
 /*All images connected to boxes*/
 .sesame-image {
-  grid-area: 3 / 2 / 4 / 3;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 90%;
+  height: auto;
+  justify-self: start;
+  align-self: start;
+  margin: 3%;
 }
 .pesto-image {
-  grid-area: 3 / 4 / 4 / 5;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 90%;
+  height: auto;
+  justify-self: start;
+  align-self: start;
+  margin: 3%;
 }
 .wok-image {
-  grid-area: 4 / 4 / 4 / 5;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 90%;
+  height: auto;
+  justify-self: start;
+  align-self: start;
+  margin: 3%;
 }
 .wrap-image {
-  grid-area: 4 / 2 / 4 / 5;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 90%;
+  height: auto;
+  justify-self: start;
+  align-self: start;
+  margin: 3%;
 }
 .pumpkin-image {
-  grid-area: 5 / 2 / 5 / 3;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 90%;
+  height: auto;
+  justify-self: start;
+  align-self: start;
+  margin: 3%;
 }
 .fried-image {
-  grid-area: 5 / 4 / 5 / 5;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 90%;
+  height: auto;
+  justify-self: start;
+  align-self: start;
+  margin: 3%;
 }
 .bbq-image {
-  grid-area: 6 / 2 / 6 / 3;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 90%;
+  height: auto;
+  justify-self: start;
+  align-self: start;
+  margin: 3%;
 }
 .curry-image {
-  grid-area: 6 / 4 / 6 / 5;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 90%;
+  height: auto;
+  justify-self: start;
+  align-self: start;
+  margin: 3%;
 }
 /*No more images connected to boxes*/
 .image {
-  width: 330px;
+  width: 100%;
   height: auto;
   border-radius: 10px 0px 0px 0px;
   /* border-top: 7px solid rgba(241, 89, 41, 1);
@@ -277,4 +341,196 @@ h3 {
   font-style: normal;
   font-weight: normal;
   text-align: normal;
+}
+@media screen and (min-width: 600px) {
+  .logo-two {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 5% 4% 11% 11% 11% 11% 11% 11% 11% 11%;
+    grid-column-gap: 0%;
+    grid-row-gap: 1%;
+    height: auto;
+    width: 99%;
+  }
+  .logo {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+  .user-image {
+    display: none;
+  }
+  .header-container {
+    background-color: rgb(255, 255, 255);
+    grid-area: 1 / 1 / 2 / 4;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    row-gap: 0%;
+  }
+  .menu {
+    background-color: rgba(132, 157, 58, 1);
+    grid-area: 1 / 1 / 2 / 2;
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+  }
+  .logo-two {
+    height: 100%;
+  }
+  .click-logo {
+    grid-area: 1 / 2 / 2 / 3;
+    width: auto;
+    height: 95%;
+    justify-self: center;
+    align-self: center;
+  }
+  .cart {
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: rgba(132, 157, 58, 1);
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+  }
+  .menu-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .cart-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .popular-chick {
+    grid-area: 2 / 1 / 3 / 4;
+    border-bottom: 2px solid rgba(132, 157, 58, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-self: stretch;
+    width: 100%;
+    color: rgba(132, 157, 58, 1);
+    align-self: end;
+  }
+  .sesame-box {
+    grid-area: 3 / 1 / 4 / 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    padding: 1%;
+
+    border-top: 7px solid rgba(241, 89, 41, 1);
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 99%;
+    grid-template-columns: 40% 40%;
+  }
+  .pesto-box {
+    grid-area: 4 / 1 / 5 / 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    padding: 1%;
+
+    border-top: 7px solid rgba(241, 89, 41, 1);
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 99%;
+    grid-template-columns: 40% 40%;
+  }
+  .wrap-box {
+    grid-area: 5 / 1 / 6 / 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    padding: 1%;
+    border-top: 7px solid rgba(241, 89, 41, 1);
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 99%;
+    grid-template-columns: 40% 40%;
+  }
+  .wok-box {
+    grid-area: 6 / 1 / 7 / 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    padding: 1%;
+    border-top: 7px solid rgba(241, 89, 41, 1);
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 99%;
+    grid-template-columns: 40% 40%;
+  }
+  .pumpkin-box {
+    grid-area: 7 / 1 / 8 / 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    padding: 1%;
+    border-top: 7px solid rgba(241, 89, 41, 1);
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 99%;
+    grid-template-columns: 40% 40%;
+  }
+  .fried-box {
+    grid-area: 8 / 1 / 9 / 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    padding: 1%;
+    border-top: 7px solid rgba(241, 89, 41, 1);
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 99%;
+    grid-template-columns: 40% 40%;
+  }
+  .bbq-box {
+    grid-area: 9/ 1 / 10 / 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1%;
+    border-top: 7px solid rgba(241, 89, 41, 1);
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 99%;
+    grid-template-columns: 40% 40%;
+  }
+  .curry-box {
+    grid-area: 10 / 1 / 11 / 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1%;
+    border-top: 7px solid rgba(241, 89, 41, 1);
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 99%;
+    grid-template-columns: 40% 40%;
+  }
 }
