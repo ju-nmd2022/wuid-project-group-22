@@ -2,7 +2,11 @@
 .container {
   display: grid;
   grid-template-columns: 11% 25% 25% 25% 11%;
+<<<<<<< HEAD
   grid-template-rows: 10% 25% 25% 25% 5%;
+=======
+  grid-template-rows: 11% 25% 25% 25% 11%;
+>>>>>>> 54f9d1dc75312ef857b02f0e88bf52586b95b33c
   column-gap: 1%;
   row-gap: 3%;
   width: 99%;
@@ -156,65 +160,6 @@ p {
 }
 /*End of the header*/
 
-/*Start of the searchbar*/
-.searchbar-container {
-  border-radius: 10px;
-  background-color: rgba(241, 89, 41, 1);
-  grid-area: 2 / 2 / 3 / 5;
-}
-input {
-  border: none;
-  padding-left: 5%;
-  border-radius: 20px;
-  margin-left: 5%;
-  justify-self: start;
-  align-self: center;
-  width: 70%;
-  height: 40%;
-  grid-area: 2 / 2 / 3 / 5;
-}
-.search-button {
-  grid-area: 2 / 4 / 3 / 5;
-  width: 40%;
-  height: 40%;
-  justify-self: end;
-  align-self: center;
-  margin-right: 8%;
-  background-color: rgba(132, 157, 58, 1);
-  border: none;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  display: inline-block;
-  font-size: 100%;
-  border-radius: 20px;
-  cursor: pointer;
-  overflow: hidden;
-  transition-duration: 0.4s;
-}
-.search-button:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  overflow: hidden;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  border-radius: 20px;
-  opacity: 0;
-  transition: all 0.8s;
-}
-.search-button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s;
-  overflow: hidden;
-  border-radius: 20px;
-}
-/*End of Searchbar*/
-
 /*The recipe with text and images*/
 .poupular-recipe-container-one {
   border-radius: 10px 10px 0px 0px;
@@ -240,17 +185,6 @@ input {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
   height: auto;
-}
-
-.recipe-name {
-  grid-area: 3 / 2 / 4 / 5;
-  border-bottom: 2px solid rgba(132, 157, 58, 1);
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-self: stretch;
-  width: 100%;
-  color: rgba(132, 157, 58, 1);
-  align-self: end;
 }
 /*End of recipe*/
 
