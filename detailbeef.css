@@ -1,11 +1,11 @@
 /* this is important for a grid, it holds all my cells */
 .container {
   display: grid;
-  grid-template-columns: 11% 400px 400px 400px 11%;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
   grid-template-rows: 11% 25% 25% 25% 11%;
   column-gap: 1%;
   row-gap: 3%;
-  width: 99%;
+  width: 100%;
 }
 
 /*Background and texts*/
@@ -166,13 +166,15 @@ p {
   background-color: rgb(255, 255, 255);
   grid-area: 2 / 2 / 6 / 5;
   display: grid;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 1.5fr 1.5fr;
   grid-template-rows: 320px 150px 50px 100px 250px 800px;
   row-gap: 10px;
   column-gap: 1%;
-  padding: 1%;
+  padding: 5px;
   border-top: 7px solid rgba(241, 89, 41, 1);
-  width: 98%;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
 }
 .recipe-image {
   border-radius: 10px;
@@ -204,6 +206,7 @@ p {
   background-color: #ffe2d1;
   border-radius: 10px 10px 10px 10px;
   border-top: 80px solid rgba(241, 89, 41, 1);
+  justify-self: end;
 }
 .directions-text {
   grid-area: 2/1/2/1;
