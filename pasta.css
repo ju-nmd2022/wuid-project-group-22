@@ -89,7 +89,7 @@
 }
 /*End of header-container content*/
 /*All the white boxes*/
-.bowl-box {
+.alfredo-box {
   grid-area: 3 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -98,7 +98,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.toast-box {
+.arrabiata-box {
   grid-area: 3 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -107,7 +107,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.sausage-box {
+.bolognese-box {
   grid-area: 4 / 2 / 4 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -116,7 +116,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.marinated-box {
+.broccoli-box {
   grid-area: 4 / 4 / 4 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -125,7 +125,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.burger-box {
+.carbonara-box {
   grid-area: 5 / 2 / 5 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -134,7 +134,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.bbq-box {
+.creamy-box {
   grid-area: 5 / 4 / 5 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
@@ -143,7 +143,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.bacon-box {
+.pesto-box {
   grid-area: 6 / 2 / 6 / 4;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -152,7 +152,7 @@
   border-top: 7px solid rgba(241, 89, 41, 1);
   border-bottom: 7px solid rgba(241, 89, 41, 1);
 }
-.noodle-box {
+.tortellini-box {
   grid-area: 6 / 4 / 6 / 6;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -163,49 +163,49 @@
 }
 /*No more white boxes*/
 /*All the content inside boxes*/
-.bowl {
+.alfredo {
   color: #625248;
   grid-area: 3 / 3 / 4 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.toast {
+.arrabiata {
   color: #625248;
   grid-area: 3 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.sausage {
+.bolognese {
   color: #625248;
   grid-area: 4 / 3 / 4 / 4;
   margin-bottom: 4px;
   padding-right: 20px;
 }
-.marinated {
+.broccoli {
   color: #625248;
   grid-area: 4 / 5 / 4 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.burger {
+.carbonara {
   color: #625248;
   grid-area: 5 / 3 / 5 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.bbq {
+.creamy {
   color: #625248;
   grid-area: 5 / 5 / 5 / 6;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.bacon {
+.pesto {
   color: #625248;
   grid-area: 6 / 3 / 6 / 4;
   padding-right: 20px;
   margin-bottom: 4px;
 }
-.noodle {
+.tortellini {
   color: #625248;
   grid-area: 6 / 5 / 6 / 6;
   padding-right: 20px;
@@ -213,28 +213,28 @@
 }
 /*No more content inside boxes*/
 /*All images connected to boxes*/
-.bowl-image {
+.alfredo-image {
   grid-area: 3 / 2 / 4 / 3;
 }
-.toast-image {
+.arrabiata-image {
   grid-area: 3 / 4 / 4 / 5;
 }
-.sausage-image {
+.bolognese-image {
   grid-area: 4 / 2 / 4 / 5;
 }
-.marinated-image {
+.broccoli-image {
   grid-area: 4 / 4 / 4 / 5;
 }
-.burger-image {
+.carbonara-image {
   grid-area: 5 / 2 / 5 / 3;
 }
-.bbq-image {
+.creamy-image {
   grid-area: 5 / 4 / 5 / 5;
 }
-.bacon-image {
+.pesto-image {
   grid-area: 6 / 2 / 6 / 3;
 }
-.noodle-image {
+.tortellini-image {
   grid-area: 6 / 4 / 6 / 5;
 }
 /*No more images connected to boxes*/
@@ -243,9 +243,9 @@
   height: auto;
   border-radius: 10px 0px 0px 0px;
   /* border-top: 7px solid rgba(241, 89, 41, 1);
-          border-bottom: 7px solid rgba(241, 89, 41, 1); */
+            border-bottom: 7px solid rgba(241, 89, 41, 1); */
 }
-.popular-pork {
+.popular-pasta {
   grid-area: 2 / 2 / 3 / 6;
   border-bottom: 2px solid rgba(132, 157, 58, 1);
   justify-self: stretch;
