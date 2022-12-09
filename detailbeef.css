@@ -260,7 +260,7 @@ input {
   /* border-right: 2px solid rgba(132, 157, 58, 1); */
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 15% 5% 5% 25% 10%;
+  grid-template-rows: 6% 3% 3% 10% 3%;
   row-gap: 5px;
   column-gap: 5px;
   padding-right: 20px;
@@ -416,8 +416,8 @@ input {
   padding: 20px;
 }
 .icon-image {
-  width: auto;
-  height: 100%;
+  width: 60%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
