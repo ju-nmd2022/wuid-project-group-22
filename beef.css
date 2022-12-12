@@ -33,7 +33,6 @@
   margin-right: auto;
   width: 25px;
   height: 25px;
-  margin-top: 12px;
 }
 .login {
   padding-left: 10px;
@@ -837,4 +836,38 @@ h3 {
     grid-template-columns: 40% 40%;
   }
   /*No more white boxes*/
+  .popout-menu-container {
+    background-color: rgba(207, 211, 165, 1);
+    grid-area: 1/ 1 / 11 / 4;
+    /* border-right: 2px solid rgba(132, 157, 58, 1); */
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 6% 2% 2% 9% 4%;
+    row-gap: 0.1;
+    column-gap: 0.2%;
+    width: 99%;
+  }
+  .image-in-4u-box {
+    grid-area: 4/1/5/3;
+    width: 70%;
+    height: auto;
+
+    margin: 10%;
+  }
+  .recomended-4u-textbox {
+    grid-area: 4/3/5/5;
+    align-self: right;
+    justify-self: center;
+    padding: 7%;
+  }
+
+  .popout-cart-container {
+    background-color: rgba(207, 211, 165, 1);
+    grid-area: 1 / 1 / 11 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 400px 60px;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
 }
