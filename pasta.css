@@ -210,8 +210,7 @@
 .pesto,
 .tortellini {
   color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  margin: 3%;
+  grid-area: 1 / 2 /2 / 4;
 }
 
 /*No more content inside boxes*/
@@ -249,6 +248,16 @@
   color: rgba(132, 157, 58, 1);
   align-self: end;
 }
+
+.small-star {
+  width: 10%;
+  height: auto;
+}
+.small-comment {
+  width: 10%;
+  height: auto;
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }

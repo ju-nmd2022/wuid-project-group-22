@@ -194,112 +194,35 @@
 }
 /*No more white boxes*/
 /*All the content inside boxes*/
-.meatballs {
-  color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  margin: 3%;
-}
-.goulash {
-  color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  margin: 3%;
-}
-.wellington {
-  color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  margin: 3%;
-}
-.stroganoff {
-  color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  margin: 3%;
-}
-.teriyaki {
-  color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  margin: 3%;
-}
-.stew {
-  color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  margin: 3%;
-}
-.tacos {
-  color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  margin: 3%;
-}
+.meatballs,
+.goulash,
+.wellington,
+.stroganoff,
+.teriyaki,
+.stew,
+.tacos,
 .steak {
   color: #625248;
-  grid-area: 1 / 2 /2 / 3;
-  padding-right: 20px;
-  margin: 3%;
+  grid-area: 1 / 2 /2 / 4;
+
+  margin: 4%;
 }
 /*No more content inside boxes*/
 /*All images connected to boxes*/
-.meatballs-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 90%;
-  height: auto;
-  justify-self: start;
-  align-self: start;
-  margin: 3%;
-}
-.goulash-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 90%;
-  height: auto;
-  justify-self: start;
-  align-self: start;
-  margin: 3%;
-}
-.stroganoff-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 90%;
-  height: auto;
-  justify-self: start;
-  align-self: start;
-  margin: 3%;
-}
-.wellington-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 90%;
-  height: auto;
-  justify-self: start;
-  align-self: start;
-  margin: 3%;
-}
-.teriyaki-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 90%;
-  height: auto;
-  justify-self: start;
-  align-self: start;
-  margin: 3%;
-}
-.stew-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 90%;
-  height: auto;
-  justify-self: start;
-  align-self: start;
-  margin: 3%;
-}
-.tacos-image {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 90%;
-  height: auto;
-  justify-self: start;
-  align-self: start;
-  margin: 3%;
-}
+.meatballs-image,
+.goulash-image,
+.stroganoff-image,
+.wellington-image,
+.teriyaki-image,
+.stew-image,
+.tacos-image,
 .steak-image {
   grid-area: 1 / 1 / 2 / 2;
   width: 90%;
   height: auto;
   justify-self: start;
   align-self: start;
-  margin: 3%;
+  margin: 2%;
 }
 /*No more connected to boxes*/
 
@@ -336,9 +259,18 @@
   width: 5%;
   height: auto;
 }
+a {
+  text-decoration: none;
+  color: #625248;
+}
+a:hover {
+  text-decoration: none;
+  color: rgba(241, 89, 41, 1);
+}
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
   background-color: rgba(207, 211, 165, 1);
 }
@@ -353,7 +285,7 @@ h1 {
 }
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 150%;
 }
 h3 {
   font-size: 20px;

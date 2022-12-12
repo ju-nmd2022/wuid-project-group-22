@@ -250,6 +250,14 @@
   color: rgba(132, 157, 58, 1);
   align-self: end;
 }
+.small-star {
+  width: 10%;
+  height: auto;
+}
+.small-comment {
+  width: 10%;
+  height: auto;
+}
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
