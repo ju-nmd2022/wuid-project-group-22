@@ -15,6 +15,32 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 40px;
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+.thanks-text span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: thanks-text 1.5s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes thanks-text {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: rgba(207, 211, 165, 1);
@@ -24,11 +50,12 @@ body {
   justify-self: center;
   align-self: start;
   width: 200px;
-  height: 40px;
+  height: 30px;
   background-color: rgba(241, 89, 41, 1);
   border: none;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 14px;
+  margin-top: 10%;
   color: #ffffff;
   cursor: pointer;
 }

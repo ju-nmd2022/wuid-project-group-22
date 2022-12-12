@@ -52,7 +52,7 @@ h3 {
   cursor: pointer;
 }
 .close-button-image {
-  height: 60px;
+  height: 40px;
   margin-left: 25%;
 }
 .cart-icon-orange {
@@ -74,7 +74,7 @@ h3 {
 .item-image-in-checkout {
   grid-area: 1/1/2/2;
   width: auto;
-  height: 20%;
+  height: 100%;
   justify-self: center;
   align-self: start;
 }
@@ -109,6 +109,9 @@ h3 {
 }
 .empty-cell-four {
   grid-area: 4/1/5/5;
+  align-self: end;
+  justify-self: end;
+  margin-right: 10%;
 }
 
 .logo-checkout-details {
