@@ -32,7 +32,7 @@ menuButton.addEventListener("click", function (event) {
   popoutMenu.style.visibility = "visible";
   greyOut.style.visibility = "visible";
   cartButton.style.visibility = "hidden";
-  firstPop.style.visibility = "hidden";
+  firstPop.style.webkitAnimationPlayState = "paused";
   thirdPop.style.webkitAnimationPlayState = "paused";
   secondPop.style.webkitAnimationPlayState = "paused";
 });
