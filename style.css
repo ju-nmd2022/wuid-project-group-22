@@ -194,7 +194,22 @@ input {
 }
 
 /*End of Searchbar*/
-
+.small-star {
+  width: 10%;
+  height: auto;
+}
+.small-comment {
+  width: 10%;
+  height: auto;
+}
+.small-star-popular {
+  width: 5%;
+  height: auto;
+}
+.small-comment-popular {
+  width: 5%;
+  height: auto;
+}
 /*The popular recipes with text and images*/
 .poupular-recipe-container-one {
   border-radius: 10px 10px 0px 0px;
