@@ -681,8 +681,6 @@ p {
   }
   .pot-buy {
     grid-area: 2/1/3/2;
-    align-self: center;
-    margin-top: 10%;
   }
   .pot-pot {
     grid-area: 2/1/3/2;
