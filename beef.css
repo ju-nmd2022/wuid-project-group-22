@@ -84,7 +84,6 @@
   justify-self: center;
   align-self: center;
 }
-
 .click-logo {
   grid-area: 1 / 3 / 2 / 4;
   width: auto;
@@ -99,7 +98,6 @@
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
   padding: 1%;
-
   border-top: 7px solid rgba(241, 89, 41, 1);
   height: 100%;
   width: auto;
@@ -112,7 +110,6 @@
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 0px 0px;
   padding: 1%;
-
   border-top: 7px solid rgba(241, 89, 41, 1);
   height: 100%;
   width: auto;
@@ -204,9 +201,9 @@
 .steak {
   color: #625248;
   grid-area: 1 / 2 /2 / 4;
-
   margin: 4%;
 }
+
 /*No more content inside boxes*/
 /*All images connected to boxes*/
 .meatballs-image,
@@ -286,6 +283,9 @@ h1 {
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150%;
+}
+h2:hover {
+  color: rgba(241, 89, 41, 1);
 }
 h3 {
   font-size: 20px;

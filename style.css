@@ -20,6 +20,9 @@ h1 {
   font-size: 120%;
   color: #625248;
 }
+h1:hover {
+  color: rgba(241, 89, 41, 1);
+}
 h2 {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;

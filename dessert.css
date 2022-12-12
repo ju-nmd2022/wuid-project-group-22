@@ -280,6 +280,9 @@ h2 {
   font-size: 140%;
   color: #625248;
 }
+h2:hover {
+  color: rgba(241, 89, 41, 1);
+}
 h3 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;

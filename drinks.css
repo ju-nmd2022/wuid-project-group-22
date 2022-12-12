@@ -249,7 +249,6 @@
   color: rgba(132, 157, 58, 1);
   align-self: end;
 }
-
 .small-star {
   width: 10%;
   height: auto;
@@ -278,6 +277,9 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   color: #625248;
+}
+h2:hover {
+  color: rgba(241, 89, 41, 1);
 }
 h3 {
   font-size: 20px;

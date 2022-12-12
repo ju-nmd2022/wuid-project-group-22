@@ -346,6 +346,9 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 140%;
 }
+h2:hover {
+  color: rgba(241, 89, 41, 1);
+}
 h3 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
