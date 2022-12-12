@@ -191,14 +191,16 @@ p {
 }
 .rating {
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
   background-color: rgba(241, 89, 41, 1);
   color: #625248;
   border-radius: 10px 10px 0px 0px;
+  grid-area: 1 / 2 / 1 / 2;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px;
 }
 .stars {
   grid-area: 1 / 2 / 1 / 2;
-  height: 50px;
+  height: 40px;
   width: auto;
   padding-top: 10;
 }
@@ -211,7 +213,7 @@ p {
   font-size: 20px;
   background-color: #ffe2d1;
   border-radius: 10px 10px 10px 10px;
-  border-top: 80px solid rgba(241, 89, 41, 1);
+
   justify-self: end;
 }
 .directions-text {
