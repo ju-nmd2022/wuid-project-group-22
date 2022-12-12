@@ -10,6 +10,7 @@ const thirdPop = document.querySelector(".poupular-recipe-container-three");
 const secondPop = document.querySelector(".poupular-recipe-container-two");
 const itemBox = document.querySelector(".item-box-for-cart");
 const nothingInCart = document.querySelector(".empty-cart-text");
+const Potpot = document.querySelector(".buy-pot");
 
 itemBox.style.visibility = "hidden";
 
@@ -46,4 +47,11 @@ closeCartButton.addEventListener("click", function (event) {
   greyOut.style.visibility = "hidden";
   menuButton.style.visibility = "visible";
   itemBox.style.visibility = "hidden";
+});
+Potpot.addEventListener("click", function (event) {
+  cartButton.style.visibility = "hidden";
+  popoutCart.style.visibility = "visible";
+  greyOut.style.visibility = "visible";
+  menuButton.style.visibility = "hidden";
+  itemBox.style.visibility = "visible";
 });
