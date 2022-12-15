@@ -6,6 +6,7 @@
   height: auto;
   width: 95%;
 }
+/* Animation made by https://lukeembrey.com/*/
 .thanks-text {
   grid-area: 1/1/2/2;
   margin-top: 10%;
@@ -36,6 +37,7 @@
     transform: translateY(-20px);
   }
 }
+/*end of the animation by https://lukeembrey.com/*/
 
 * {
   padding: 0;
