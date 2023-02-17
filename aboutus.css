@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(207, 211, 165, 1);
+}
+
+h1 {
+  color: #f15929;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  color: #f15929;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/* text animation */
+h2:hover {
+  color: white;
+}
+p {
+  color: #7c7777;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* grid for whole site */
+.container {
+  display: grid;
+  grid-template-columns: 8% 84% 8%;
+  grid-template-rows: 110px auto 50px;
+  grid-template-areas:
+    "header header header"
+    ". content ."
+    ". footer .";
+}
+.unit1 {
+  background-color: #ffe2d1;
+  text-align: center;
+  grid-area: header;
+  font-size: x-large;
+  border-radius: 20px;
+}
+.unit2 {
+  grid-area: content;
+}
+.unit3 {
+  grid-area: footer;
+  border-radius: 10px;
+  align-items: center;
+}
+/* grid for content block */
+.project {
+  display: grid;
+  grid-area: content;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-areas: "a b";
+}
+/* responsiveness */
+@media only screen and (max-width: 600px) {
+  .project {
+    grid-template-columns: 400px;
+    grid-template-areas:
+      "a"
+      "b";
+  }
+}
+.button {
+  background-color: #849d3a;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+hr {
+  border: 1px solid #849d3a;
+}
+
+.txt {
+  color: #7c7777;
+}
